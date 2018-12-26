@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 配置 SqlSession -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--这里使用sqlSessionFactory创建连接池，而连接池中有dataSource的属性，同时在spring-context-druid.xml中有配置dataSource，所有又使用ref引进来,
+        也就是说mybatis的配置是从druid中拿过来的-->
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 用于配置对应实体类所在的包，多个 package 之间可以用 ',' 号分割 -->
+        <property name="typeAliasesPackage" value="com.swaggerranger.my.shop.domain"/>
+        <!-- 用于配置对象关系映射配置文件所在目录 -->
+        <property name="mapperLocations" value="classpath:/mapper/**/*.xml"/>
+        <property name="configLocation" value="classpath:/mybatis-config.xml"></property>
+    </bean>
+
+    <!-- 扫描 Mapper即扫描数据访问层 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.swaggerranger.my.shop.web.admin.dao" />
+    </bean>
+</beans>
