@@ -23,5 +23,12 @@ public interface TbUserService {
 
     List<TbUser> search(TbUser tbUser);
 
+    /**
+     * @Description 批量删除
+     * @Param
+     * @return
+     * @exception
+     */
+    void deleteMulti( String[] ids );
 
 }

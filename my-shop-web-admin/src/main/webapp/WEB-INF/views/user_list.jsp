@@ -2,6 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="sys" tagdir="/WEB-INF/tags/sys" %>
 
 <!DOCTYPE html>
 <html>
@@ -104,7 +105,7 @@
                             <div class="row" style="padding-left: 12px;padding-top: 10px">
                                 <div class="col-xs-12">
                                     <a href="/user/form" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i>新增</a>&nbsp;&nbsp;
-                                    <a href="#" type="button" class="btn btn-sm btn-default" onclick="deleteMulti()"><i class="fa fa-trash-o"></i>删除</a>&nbsp;&nbsp;
+                                    <button type="button" class="btn btn-sm btn-default" onclick="App.deleteMulti('/user/delete')"><i class="fa fa-trash-o"></i>删除</button>&nbsp;&nbsp;
                                     <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;&nbsp;
                                     <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;&nbsp;
                                     <a type="button" class="btn btn-sm btn-primary" onclick="$('.box-info-search').css('display') == 'none' ? $('.box-info-search').show('fast') :$('.box-info-search').hide('fast')" ><i class="fa fa-search"></i>搜索</a>
@@ -165,7 +166,15 @@
 
 <jsp:include page="../includes/footer.jsp"/>
 
-<script>
+<%--引入模态框--%>
+<sys:modal></sys:modal>
+
+<%--自定义模态框--%>
+<%--<script>
+    //定义存放元素ID的数组
+    var idArray = new Array();
+
+
     // 这个会自动触发，因为是个对象
     $(function () {
         var _checkbox = App.getCheckbox();
@@ -174,10 +183,12 @@
         });
     });
 
-    //这个是个时间需要触发
+    //这种是个事件需要触发
+    /**
+     * @Description 批量删除
+     */
     function deleteMulti() {
-        //定义存放元素ID的数组
-        var idArray = new Array();
+
         //将ID取到放入数组
         var _checkbox = App.getCheckbox();
         _checkbox.each(function () {
@@ -186,9 +197,43 @@
                 idArray.push(_id);
             }
         });
-        console.log(idArray);
+
+        if (idArray.length === 0) {
+            $("#modalMsg").html("您还未选择任何数据项，请选择一项！");
+        }
+
+        else {
+            $("#modalMsg").html("您确定删除选中数据项吗？");
+        }
+        $("#modal-default").modal("show");
     }
-</script>
+
+    $(function () {
+        $("#modalBtnOK").bind("click",function () {
+            del(idArray,"/user/delete")
+        });
+
+        function del(idArray, url) {
+            if (idArray.length === 0) {
+                $("#modal-default").modal("hide");
+            }
+
+            else {
+                $.ajax({
+                    "url": url,
+                    "type": "POST",
+                    "data":{"ids": idArray.toString()},
+                    "dataType":"JSON",
+                    "success": function (data) {
+                        console.log(data);
+                    }
+                });
+            }
+
+        }
+
+    });
+</script>--%>
 
 </body>
 </html>
