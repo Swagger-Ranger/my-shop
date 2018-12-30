@@ -1,5 +1,8 @@
 package com.swaggerranger.my.shop.domain;
 
+import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.swaggerranger.my.shop.commons.persistence.BaseEntity;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -12,22 +15,11 @@ import java.util.Date;
  * @Aha-eureka:
  *******************************************************************************/
 
-public class TbUser implements Serializable {
-    private Long id;
+public class TbUser extends BaseEntity {
     private String username;
     private String password;
     private String phone;
     private String email;
-    private Date created;
-    private Date updated;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId( Long id ) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;
@@ -61,19 +53,4 @@ public class TbUser implements Serializable {
         this.email = email;
     }
 
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated( Date created ) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated( Date updated ) {
-        this.updated = updated;
-    }
 }

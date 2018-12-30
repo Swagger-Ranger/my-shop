@@ -16,4 +16,12 @@
     <name>my-shop-domain</name>
     <description>领域模型，用于放实体类</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.swaggerranger</groupId>
+            <artifactId>my-shop-commons</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

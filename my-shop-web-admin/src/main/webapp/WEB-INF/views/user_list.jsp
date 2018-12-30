@@ -100,23 +100,17 @@
                     <div class="box">
                         <div class="box-header">
                             <h3 class="box-title">用户列表</h3>
-
-
-                            <div class="row" style="padding-left: 12px;padding-top: 10px">
-                                <div class="col-xs-12">
-                                    <a href="/user/form" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i>新增</a>&nbsp;&nbsp;
-                                    <button type="button" class="btn btn-sm btn-default" onclick="App.deleteMulti('/user/delete')"><i class="fa fa-trash-o"></i>删除</button>&nbsp;&nbsp;
-                                    <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;&nbsp;
-                                    <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;&nbsp;
-                                    <a type="button" class="btn btn-sm btn-primary" onclick="$('.box-info-search').css('display') == 'none' ? $('.box-info-search').show('fast') :$('.box-info-search').hide('fast')" ><i class="fa fa-search"></i>搜索</a>
-                                </div>
-
-                            </div>
-
+                        </div>
+                        <div class="box-body">
+                            <a href="/user/form" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i>新增</a>&nbsp;&nbsp;
+                            <button type="button" class="btn btn-sm btn-default" onclick="App.deleteMulti('/user/delete')"><i class="fa fa-trash-o"></i>删除</button>&nbsp;&nbsp;
+                            <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-download"></i>导入</a>&nbsp;&nbsp;
+                            <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-upload"></i>导出</a>&nbsp;&nbsp;
+                            <a type="button" class="btn btn-sm btn-primary" onclick="$('.box-info-search').css('display') == 'none' ? $('.box-info-search').show('fast') :$('.box-info-search').hide('fast')" ><i class="fa fa-search"></i>搜索</a>
                         </div>
                         <!-- /.box-header -->
-                        <div class="box-body table-responsive no-padding">
-                            <table class="table table-hover">
+                        <div class="box-body table-responsive">
+                            <table id="dataTable" class="table table-hover">
                                 <thead>
                                     <tr>
                                         <th><input type="checkbox" class="minimal iCheck_master" /></th>
@@ -130,24 +124,6 @@
                                         </th>
                                     </tr>
                                 </thead>
-
-                                <c:forEach items="${tbUsers}" var="tbUser">
-                                    <tr>
-                                        <td><input id="${tbUser.id}" type="checkbox" class="minimal" /></td>
-                                        <td>${tbUser.id}</td>
-                                        <td>${tbUser.username}</td>
-                                        <td>${tbUser.phone}</td>
-                                        <td>${tbUser.email}</td>
-                                        <td><fmt:formatDate value="${tbUser.updated}" pattern="yyyy-mm-dd hh:mm:ss"/> </td>
-                                        <td>
-                                            <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-search"></i>查看</a>&nbsp;&nbsp;
-                                            <a href="#" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;&nbsp;
-                                            <a href="#" type="button" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i>删除</a>&nbsp;&nbsp;
-                                        </td>
-                                    </tr>
-                                </c:forEach>
-
-
 
                             </table>
                         </div>
@@ -169,71 +145,34 @@
 <%--引入模态框--%>
 <sys:modal></sys:modal>
 
-<%--自定义模态框--%>
-<%--<script>
-    //定义存放元素ID的数组
-    var idArray = new Array();
-
-
-    // 这个会自动触发，因为是个对象
+<script>
     $(function () {
-        var _checkbox = App.getCheckbox();
-        _checkbox.each(function () {
-            // console.log($(this).is(":checked"));
-        });
-    });
+        var _columns =[
+            {
+                "data": function (row, type, val, meta) {
+                    return ' <td><input id="'+row.id+'" type="checkbox" class="minimal" /></td>'
 
-    //这种是个事件需要触发
-    /**
-     * @Description 批量删除
-     */
-    function deleteMulti() {
+                }
+            },
+            { "data": "id" },
+            { "data": "username" },
+            { "data": "phone" },
+            { "data": "email" },
+            { "data": "updated" },
+            {
+                "data": function (row, type, val, meta) {
+                    return '<a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-search"></i>查看</a>&nbsp;&nbsp;\n' +
+                        '<a href="#" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;&nbsp;\n' +
+                        '<a href="#" type="button" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i>删除</a>&nbsp;&nbsp;'
 
-        //将ID取到放入数组
-        var _checkbox = App.getCheckbox();
-        _checkbox.each(function () {
-            var _id = $(this).attr("id");
-            if (_id != null && _id != "undefine" && $(this).is(":checked")) {
-                idArray.push(_id);
+                }
             }
-        });
+        ];
 
-        if (idArray.length === 0) {
-            $("#modalMsg").html("您还未选择任何数据项，请选择一项！");
-        }
-
-        else {
-            $("#modalMsg").html("您确定删除选中数据项吗？");
-        }
-        $("#modal-default").modal("show");
-    }
-
-    $(function () {
-        $("#modalBtnOK").bind("click",function () {
-            del(idArray,"/user/delete")
-        });
-
-        function del(idArray, url) {
-            if (idArray.length === 0) {
-                $("#modal-default").modal("hide");
-            }
-
-            else {
-                $.ajax({
-                    "url": url,
-                    "type": "POST",
-                    "data":{"ids": idArray.toString()},
-                    "dataType":"JSON",
-                    "success": function (data) {
-                        console.log(data);
-                    }
-                });
-            }
-
-        }
+        App.initDataTables("/user/page", _columns);
 
     });
-</script>--%>
+</script>
 
 </body>
 </html>

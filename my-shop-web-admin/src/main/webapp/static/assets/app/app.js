@@ -113,6 +113,65 @@ var App = function () {
         }
     };
 
+    /**
+     * @Description 初始化DataTables
+     * @Param
+     * @return
+     * @exception
+     */
+    var handlerInitDataTables = function (url,columns) {
+
+        //dataTable的初始化，以及配置参数
+        $("#dataTable").DataTable({
+            "paging": true,
+            "info": true,
+            "lengthChange": true,//一页显示多少数据
+            "ordering":false,
+            "processing":true,
+            "searching":false,
+            "serverSide":true,//将分页设置在服务器端进行
+            //服务器请求数据的地址
+            "ajax": {
+                "url": url,
+                // "data": {
+                //     "user_id": 451
+                // }
+            },
+            "columns": columns,
+            "language": {
+                "sProcessing": "处理中...",
+                "sLengthMenu": "显示 _MENU_ 项结果",
+                "sZeroRecords": "没有匹配结果",
+                "sInfo": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                "sInfoEmpty": "显示第 0 至 0 项结果，共 0 项",
+                "sInfoFiltered": "(由 _MAX_ 项结果过滤)",
+                "sInfoPostFix": "",
+                "sSearch": "搜索:",
+                "sUrl": "",
+                "sEmptyTable": "表中数据为空",
+                "sLoadingRecords": "载入中...",
+                "sInfoThousands": ",",
+                "oPaginate": {
+                    "sFirst": "首页",
+                    "sPrevious": "上页",
+                    "sNext": "下页",
+                    "sLast": "末页"
+                },
+                "oAria": {
+                    "sSortAscending": ": 以升序排列此列",
+                    "sSortDescending": ": 以降序排列此列"
+                }
+            },
+            "drawCallback": function( settings ) {
+                handlerInitCheckbox();
+                handlerCheckboxAll();
+            }
+
+        });
+
+    };
+
+
     return {
         init: function () {
             handlerInitCheckbox();
@@ -125,6 +184,10 @@ var App = function () {
 
         deleteMulti: function (url) {
             handlerDeleteMulti(url);
+        },
+
+        initDataTables: function (url,columns) {
+            handlerInitDataTables(url, columns);
         }
     }
 

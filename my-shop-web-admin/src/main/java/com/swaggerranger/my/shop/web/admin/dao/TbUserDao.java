@@ -4,6 +4,7 @@ import com.swaggerranger.my.shop.domain.TbUser;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 @Repository
 public interface TbUserDao {
@@ -78,4 +79,20 @@ public interface TbUserDao {
      * @return      void
      */
     void deleteMulti( String[] ids );
+
+    /**
+     * @return      List<TbUser>
+     * @throws
+     * @Description 分页查询
+     * @Param params:需要两个参数：数据开始位置start和每页数据条数length
+     */
+    List<TbUser> page( Map<String, Object> params );
+
+    /**
+     * @Description 查询数据库总数据数量
+     * @Param
+     * @return
+     * @exception
+     */
+    int count();
 }

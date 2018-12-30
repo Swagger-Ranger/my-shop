@@ -1,6 +1,7 @@
 package com.swaggerranger.my.shop.web.admin.service;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.domain.TbUser;
 
 import java.util.List;
@@ -31,4 +32,13 @@ public interface TbUserService {
      */
     void deleteMulti( String[] ids );
 
+    /**
+     * @return
+     * @throws
+     * @Description 分页查询
+     * @Param
+     */
+    PageInfo<TbUser> page( int draw, int start, int length );
+
+    int count();
 }

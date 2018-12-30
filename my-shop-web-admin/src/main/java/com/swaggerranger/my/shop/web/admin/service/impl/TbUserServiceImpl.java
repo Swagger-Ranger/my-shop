@@ -1,6 +1,7 @@
 package com.swaggerranger.my.shop.web.admin.service.impl;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.commons.utils.RegExpUtils;
 import com.swaggerranger.my.shop.domain.TbUser;
 import com.swaggerranger.my.shop.web.admin.dao.TbUserDao;
@@ -11,7 +12,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2018,github:Swagger-Ranger 
@@ -105,6 +108,29 @@ public class TbUserServiceImpl implements TbUserService {
     @Override
     public void deleteMulti( String[] ids ) {
         tbUserDao.deleteMulti(ids);
+    }
+
+    @Override
+    public PageInfo<TbUser> page( int draw, int start, int length ) {
+
+        //封装dataTable需要地结果，详细的解释建注释的文档:http://www.datatables.club/manual/server-side.html
+        int count = tbUserDao.count();
+        Map<String, Object> params = new HashMap<>();
+        params.put("start", start);
+        params.put("length", length);
+
+        PageInfo<TbUser> pageInfo = new PageInfo<>();
+        pageInfo.setDraw(draw);
+        pageInfo.setRecordsTotal(count);
+        pageInfo.setRecordsFiltered(count);
+        pageInfo.setData(tbUserDao.page(params));
+
+        return pageInfo;
+    }
+
+    @Override
+    public int count() {
+        return tbUserDao.count();
     }
 
     /**
