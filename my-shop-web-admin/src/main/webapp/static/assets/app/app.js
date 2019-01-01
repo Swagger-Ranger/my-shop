@@ -90,16 +90,18 @@ var App = function () {
                         "dataType": "JSON",
                         "success": function (data) {
 
+                            //请求成功后，都有弹出模态框，所以先解绑
                             $("#modalBtnOK").unbind("click");
                             $("#modalMsg").html(data.message);
                             $("#modal-default").modal("show");
-
+                            //请求成功刷新页面
                             if (data.status === 200) {
                                 $("#modalBtnOK").bind("click", function () {
                                     window.location.reload();
                                 });
                             }
 
+                            //请求失败，隐藏模态框
                             else {
                                 $("#modalBtnOK").bind("click", function () {
                                     $("#modal-default").modal("hide");
@@ -122,20 +124,20 @@ var App = function () {
     var handlerInitDataTables = function (url,columns) {
 
         //dataTable的初始化，以及配置参数
-        $("#dataTable").DataTable({
+        var _dataTable = $("#dataTable").DataTable({
             "paging": true,
             "info": true,
             "lengthChange": true,//一页显示多少数据
-            "ordering":false,
-            "processing":true,
-            "searching":false,
-            "serverSide":true,//将分页设置在服务器端进行
+            "ordering": false,
+            "processing": true,
+            "searching": false,
+            "serverSide": true,//将分页设置在服务器端进行
             //服务器请求数据的地址
             "ajax": {
                 "url": url,
-                // "data": {
-                //     "user_id": 451
-                // }
+                "data": {
+                    // "username": "swar"
+                }
             },
             "columns": columns,
             "language": {
@@ -162,32 +164,58 @@ var App = function () {
                     "sSortDescending": ": 以降序排列此列"
                 }
             },
-            "drawCallback": function( settings ) {
+            "drawCallback": function (settings) {
                 handlerInitCheckbox();
                 handlerCheckboxAll();
             }
 
         });
 
+        return _dataTable;
     };
 
+    /**
+     * @Description 查看详情,通过ajax请求，将内容加载进模态框
+     * @Param       url
+     */
+    var handlerShowDetail = function (url) {
+        $.ajax({
+            url: url,
+            type: "get",
+            dataType: "html",
+            success: function (data) {
+                $("#modal-detail-body").html(data);
+                $("#modal-detail").modal("show");
+            }
+        });
+    };
 
     return {
+        /**
+         * @Description 初始化
+         */
         init: function () {
             handlerInitCheckbox();
             handlerCheckboxAll();
         },
 
-        getCheckbox:function () {
-            return _checkbox;
-        },
-
+        /**
+         * @Description 批量删除
+         */
         deleteMulti: function (url) {
             handlerDeleteMulti(url);
         },
 
+
         initDataTables: function (url,columns) {
-            handlerInitDataTables(url, columns);
+            return handlerInitDataTables(url, columns);
+        },
+
+        /**
+         * @Description 显示详情,
+         */
+        showDetail: function (url) {
+            handlerShowDetail(url);
         }
     }
 

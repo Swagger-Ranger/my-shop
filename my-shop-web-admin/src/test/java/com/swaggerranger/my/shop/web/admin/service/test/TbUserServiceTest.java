@@ -72,9 +72,4 @@ public class TbUserServiceTest {
         tbUserService.update(tbUser);
     }
 
-    @Test
-    public void testSelectByUsername() {
-        List<TbUser> tbUserList = tbUserService.selectByUsername("sw");
-        tbUserList.forEach(user-> System.out.println(user.getUsername()));
-    }
 }

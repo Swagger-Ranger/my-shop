@@ -14,7 +14,7 @@ var  Validate=function () {
      * @exception
      */
     var handlerInitValidate=function () {
-        // console.log("初始化jquery validation ")//控制台打印
+
 
         $("#inputForm").validate({
             errorElement: 'span',
@@ -26,20 +26,29 @@ var  Validate=function () {
             }
         });
 
+
+    };
+
+
+    /**
+     * @Description 增加自定义验证规则
+     */
+    var handlerInitCustomValidate = function () {
         $.validator.addMethod("mobile", function(value, element) {
             var length = value.length;
             var mobile =  /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/;
             return this.optional(element) || (length == 11 && mobile.test(value));
         }, "手机号码格式错误");
-    }
 
+    };
 
-        /**
-         * return里是公共方法，其它位置为私有方法
-         * init:**就是在将私有的方法暴露出来，给外界使用
-         */
+    /**
+     * return里是公共方法，其它位置为私有方法
+     * init:**就是在将私有的方法暴露出来，给外界使用
+     */
     return{
         init:function () {
+            handlerInitCustomValidate();
             handlerInitValidate();
         }
     }

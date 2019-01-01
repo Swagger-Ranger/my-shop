@@ -1,10 +1,7 @@
 package com.swaggerranger.my.shop.domain;
 
-import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.swaggerranger.my.shop.commons.persistence.BaseEntity;
-
-import java.io.Serializable;
-import java.util.Date;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2018,github:Swagger-Ranger 
@@ -29,6 +26,7 @@ public class TbUser extends BaseEntity {
         this.username = username;
     }
 
+    @JsonIgnore
     public String getPassword() {
         return password;
     }

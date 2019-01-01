@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2018,github:Swagger-Ranger 
@@ -36,13 +34,11 @@ public class UserController {
     /**
      * @return
      * @throws
-     * @Description 跳转用户列表页
+     * @Description 跳转用户列表页,这里只是跳转页面，页面数据则在页面中ajax请求的数据然后封装pageInfo做分页显示
      * @Param
      */
     @RequestMapping(value = "list", method = RequestMethod.GET)
-    public String list( Model model ) {
-        List<TbUser> tbUsers = tbUserService.selectAll();
-        model.addAttribute("tbUsers", tbUsers);
+    public String list() {
         return "user_list";
     }
 
@@ -56,7 +52,7 @@ public class UserController {
      */
     @ModelAttribute
     public TbUser getTbUser( Long id ) {
-        TbUser tbUser = null;
+        TbUser tbUser;
         //id不为空时，则从数据库获取
         if (id != null) {
             tbUser = tbUserService.getById(id);
@@ -104,21 +100,6 @@ public class UserController {
 
     }
 
-
-    /**
-     * @Description 搜索
-     * @Param
-     * @return
-     * @exception
-     */
-    @RequestMapping(value = "search",method = RequestMethod.POST)
-    public String search( TbUser tbUser ,Model model) {
-        List<TbUser> tbUsers = tbUserService.search(tbUser);
-        model.addAttribute("tbUsers", tbUsers);
-        return "user_list";
-    }
-
-
     /**
      * @Description 删除用户信息
      * @Param       ids
@@ -150,7 +131,7 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "page",method = RequestMethod.GET)
-    public PageInfo<TbUser> page( HttpServletRequest request ) {
+    public PageInfo<TbUser> page( HttpServletRequest request ,TbUser tbUser) {
         //处理传参
         String strDraw = request.getParameter("draw");
         String strStart = request.getParameter("start");
@@ -160,8 +141,21 @@ public class UserController {
         int length = strDraw == null ? 10 : Integer.parseInt(strLength);
 
         //封装dataTable需要地结果，详细的解释建注释的文档
-        PageInfo<TbUser> pageInfo = tbUserService.page(draw, start, length);
+        PageInfo<TbUser> pageInfo = tbUserService.page(draw, start, length, tbUser);
 
         return pageInfo;
+    }
+
+    /**
+     * @Description 前端传入一个id，所有的@ResposeBody 都会先经过@ModelAttribute来将传入的参数封装成对象，所有这里传入的就是一个TbUser
+     * @Param
+     * @return
+     * @exception
+     */
+    @RequestMapping(value = "detail",method = RequestMethod.GET)
+    public String detail( TbUser tbUser ) {
+        System.out.println(tbUser.getUsername());
+
+        return "user_detail";
     }
 }

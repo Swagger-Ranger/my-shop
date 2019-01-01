@@ -50,28 +50,12 @@ public interface TbUserDao {
     void update( TbUser tbUser );
 
     /**
-     * @Description 根据用户名模糊查找
-     * @Param
-     * @return
-     * @exception
-     */
-    List<TbUser> selectByUsername( String username );
-
-    /**
      * @Description 根据邮箱查询用户
      * @Param
      * @return
      * @exception
      */
     TbUser getByEmail( String email );
-
-    /**
-     * @Description 搜索用户
-     * @Param
-     * @return
-     * @exception
-     */
-    List<TbUser> search( TbUser tbUser );
 
     /**
      * @Description 批量删除
@@ -94,5 +78,5 @@ public interface TbUserDao {
      * @return
      * @exception
      */
-    int count();
+    int count( TbUser tbUser );
 }

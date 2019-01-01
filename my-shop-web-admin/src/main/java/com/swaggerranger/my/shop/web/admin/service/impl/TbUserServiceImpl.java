@@ -78,11 +78,6 @@ public class TbUserServiceImpl implements TbUserService {
     }
 
     @Override
-    public List<TbUser> selectByUsername( String username ) {
-        return tbUserDao.selectByUsername(username);
-    }
-
-    @Override
     public TbUser login( String email, String password ) {
         TbUser tbUser = tbUserDao.getByEmail(email);
 
@@ -97,27 +92,19 @@ public class TbUserServiceImpl implements TbUserService {
     }
 
     @Override
-    public List<TbUser> search(TbUser tbUser) {
-        /*TbUser tbUser = new TbUser();
-        tbUser.setUsername(keyword);
-        tbUser.setEmail(keyword);
-        tbUser.setPhone(keyword);*/
-        return tbUserDao.search(tbUser);
-    }
-
-    @Override
     public void deleteMulti( String[] ids ) {
         tbUserDao.deleteMulti(ids);
     }
 
     @Override
-    public PageInfo<TbUser> page( int draw, int start, int length ) {
+    public PageInfo<TbUser> page( int draw, int start, int length ,TbUser tbUser) {
 
         //封装dataTable需要地结果，详细的解释建注释的文档:http://www.datatables.club/manual/server-side.html
-        int count = tbUserDao.count();
+        int count = tbUserDao.count(tbUser);
         Map<String, Object> params = new HashMap<>();
         params.put("start", start);
         params.put("length", length);
+        params.put("tbUser", tbUser);
 
         PageInfo<TbUser> pageInfo = new PageInfo<>();
         pageInfo.setDraw(draw);
@@ -129,8 +116,8 @@ public class TbUserServiceImpl implements TbUserService {
     }
 
     @Override
-    public int count() {
-        return tbUserDao.count();
+    public int count(TbUser tbUser) {
+        return tbUserDao.count(tbUser);
     }
 
     /**

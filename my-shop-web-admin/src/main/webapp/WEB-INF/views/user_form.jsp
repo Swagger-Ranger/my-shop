@@ -57,6 +57,7 @@
                         <!-- form start -->
                         <%--这里使用了SpringMVC的标签库，modelAttribute和path连用即modelAttribute.path就=${value},modelAttributex需要从controller层中传过来--%>
                         <form:form id="inputForm" cssClass="form-horizontal" action="/user/save" method="post" modelAttribute="tbUser">
+                            <form:hidden path="id"></form:hidden>
                             <!-- /.box-body -->
                             <div class="box-body">
                                 <div class="form-group">
