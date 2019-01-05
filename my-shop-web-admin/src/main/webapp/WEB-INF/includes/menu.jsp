@@ -35,12 +35,25 @@
                 <a href="#">
                     <i class="fa fa-users"></i> <span>用户管理</span>
                     <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                 </a>
                 <ul class="treeview-menu">
                     <li class="active"><a href="/user/list"><i class="fa fa-circle-o"></i>用户列表</a></li>
                     <li class="active"><a href="/user/form"><i class="fa fa-circle-o"></i>新增用户</a></li>
+                </ul>
+            </li>
+
+            <li class="active treeview">
+                <a href="#">
+                    <i class="fa  fa-book"></i> <span>内容管理</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active"><a href="/content/category/list"><i class="fa fa-circle-o"></i>内容分类</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i>内容列表</a></li>
                 </ul>
             </li>
         </ul>

@@ -2,7 +2,6 @@ package com.swaggerranger.my.shop.web.admin.web.interceptor;
 
 import com.swaggerranger.my.shop.commons.constant.ConstantUtils;
 import com.swaggerranger.my.shop.domain.TbUser;
-import com.swaggerranger.my.shop.domain.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
