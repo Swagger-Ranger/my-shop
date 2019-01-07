@@ -53,7 +53,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li class="active"><a href="/content/category/list"><i class="fa fa-circle-o"></i>内容分类</a></li>
-                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i>内容列表</a></li>
+                    <li class="active"><a href="/content/list"><i class="fa fa-circle-o"></i>内容列表</a></li>
                 </ul>
             </li>
         </ul>

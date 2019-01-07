@@ -60,6 +60,7 @@
 <%--app：自定义的js内容--%>
 <script src="/static/assets/app/validate.js"></script>
 <script src="/static/assets/app/app.js"></script>
+<script src="/static/assets/app/dataTime.js"></script>
 
 
 
