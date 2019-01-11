@@ -190,6 +190,38 @@ var App = function () {
         });
     };
 
+    //url:请求地址，返回json；autoParam:ZTree插件自动会加载下个节点，加载时的参数，callback回调函数
+    var handlerInitZTree = function (url,autoParam,callback) {
+        var setting = {
+            view: {
+                selectedMulti: false
+            },
+            async: {
+                enable: true,
+                url: url,
+                autoParam:autoParam
+            }
+        };
+
+        $.fn.zTree.init($("#myTree"), setting);
+
+        $("#modalBtnOK").bind("click",function () {
+            var zTree = $.fn.zTree.getZTreeObj("myTree");
+            var nodes = zTree.getSelectedNodes();
+
+            //添加内容，模态框已选择类别
+            if (nodes.length == 0) {
+                alert("请选择一个节点");
+            }
+            //已选择
+            else {
+                callback(nodes);
+            }
+
+        });
+
+    };
+
     return {
         /**
          * @Description 初始化
@@ -216,6 +248,16 @@ var App = function () {
          */
         showDetail: function (url) {
             handlerShowDetail(url);
+        },
+
+        /**
+         * @Description 初始化ZTree
+         * @Param
+         * @return
+         * @exception
+         */
+        initZTree: function (url, autoParam, callback) {
+            handlerInitZTree(url, autoParam, callback);
         }
     }
 

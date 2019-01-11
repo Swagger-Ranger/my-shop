@@ -146,30 +146,56 @@
     var _dataTable;
 
     $(function () {
-        var _columns =[
+        var _columns = [
             {
                 "data": function (row, type, val, meta) {
-                    return ' <td><input id="'+row.id+'" type="checkbox" class="minimal" /></td>'
+                    return ' <td><input id="' + row.id + '" type="checkbox" class="minimal" /></td>'
 
                 }
             },
-            { "data": "id" },
-            { "data": "title" },
-            { "data": "subTitle" },
-            { "data": "titleDesc" },
-            { "data": "url" },
-            { "data": "pic" },
-            { "data": "pic2" },
+            {"data": "id"},
+            {"data": "title"},
+            {"data": "subTitle"},
+            {"data": "titleDesc"},
+            {
+                "data": function (row, type, val, meta) {
+                    if (row.url == null) {
+                        return '';
+                    }
+
+                    //这里target="_blank"就是在新界面打开
+                    return '<a href="' + row.url + '" target="_blank">查看</a>';
+                }
+            },
+            {
+                "data": function (row, type, val, meta) {
+                    if (row.pic == null) {
+                        return '';
+                    }
+                    return '<a href="' + row.pic + '" target="_blank">查看</a>';
+
+                }
+            },
+            {
+                "data": function (row, type, val, meta) {
+                    if (row.pic2 == null) {
+                        return '';
+                    }
+                    return '<a href="' + row.pic2 + '" target="_blank">查看</a>';
+
+                }
+            },
             {
                 "data": function (row, type, val, meta) {
                     return DateTime.format(row.updated, "yyyy-mm-dd HH:mm:ss");
 
-                } },
+                }
+            },
             {
                 "data": function (row, type, val, meta) {
                     var showDetailUrl = "/content/detail?id=" + row.id;
-                    return '<button type="button" class="btn btn-sm btn-default" onclick="App.showDetail(\''+showDetailUrl+'\');"><i class="fa fa-search"></i>查看</button>&nbsp;&nbsp;' +
-                        '<a href="/content/form?id='+row.id+'"type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;&nbsp;' +
+                    return '<button type="button" class="btn btn-sm btn-default" onclick="App.showDetail(\'' + showDetailUrl + '\');"><i class="fa fa-search"></i>查看</button>&nbsp;&nbsp;' +
+                        '<a href="/content/form?id=' + row.id + '"type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;&nbsp;' +
                         '<a href="#" type="button" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i>删除</a>&nbsp;&nbsp;'
 
                 }

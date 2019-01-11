@@ -5,7 +5,7 @@
 <%@ attribute name="opts" type="java.lang.String" required="false" description="操作类型：info confirm--确认对话框" %>
 <%@ attribute name="url" type="java.lang.String" required="false" description="跳转类型，删除对话框（url和opts默认一起使用）" %>
 
-<%--批量删除的提示模态框--%>
+<%--通用的提示模态框--%>
 <div class="modal fade" id="modal-default">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -15,7 +15,7 @@
                 <h4 class="modal-title">${title == null ? "提示" : title}</h4>
             </div>
             <div class="modal-body">
-                <p id="modalMsg">${msg}&hellip;</p>
+                <p id="modalMsg">${msg}</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">取消</button>

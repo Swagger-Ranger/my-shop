@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,16 @@ public class ContentCategoryController {
         return "content_category_list";
 
     }
+
+    @RequestMapping(value = "tree/data", method = RequestMethod.POST)
+    @ResponseBody
+    public List<TbContentCategory> treeData( Long id ) {
+        if (id == null) {
+            id = 0L;
+        }
+        return tbContentCategoryService.selectByPid(id);
+    }
+
 
     /**
      * @Description 将查询出的数据作排序，来供treeTable使用，目的就是子节点的要紧接着夫节点之后

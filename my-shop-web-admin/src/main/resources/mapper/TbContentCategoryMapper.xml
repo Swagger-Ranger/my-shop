@@ -26,4 +26,12 @@
           a.is_parent DESC
     </select>
 
+    <select id="selectByPid" resultType="TbContentCategory">
+        SELECT
+        <include refid="tbContentCategoryColumns"/>
+        FROM
+        tb_content_category AS a
+        WHERE
+        a.parent_id = #{parentId}
+    </select>
 </mapper>
