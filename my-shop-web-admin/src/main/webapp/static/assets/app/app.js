@@ -16,13 +16,12 @@ var App = function () {
             checkboxClass: 'icheckbox_minimal-blue',
             radioClass   : 'iradio_minimal-blue'
         })
+
+        //获取控制端的checkbox
+        _masterCheckbox = $('input[type="checkbox"].minimal.iCheck_master');
+        //获取所有的checkbox
+        _checkbox = $('input[type="checkbox"].minimal');
     };
-
-    //获取控制端的checkbox
-    _masterCheckbox = $('input[type="checkbox"].minimal.iCheck_master');
-    //获取所有的checkbox
-    _checkbox = $('input[type="checkbox"].minimal');
-
 
     /**
      * @Description checkbox全选功能

@@ -1,5 +1,6 @@
 package com.swaggerranger.my.shop.web.admin.web.controller;
 
+import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.domain.TbContentCategory;
 import com.swaggerranger.my.shop.web.admin.service.TbContentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +49,34 @@ public class ContentCategoryController {
         return tbContentCategoryService.selectByPid(id);
     }
 
+    /**
+     * @return
+     * @throws
+     * @Description 跳转内容表单页
+     * @Param
+     */
+    @RequestMapping(value = "form", method = RequestMethod.GET)
+    public String form() {
+        return "content_category_form";
+    }
 
+
+    @RequestMapping(value = "save",method = RequestMethod.POST)
+    public String save( TbContentCategory tbContentCategory, Model model, RedirectAttributes redirectAttributes ) {
+        BaseResult baseResult = tbContentCategoryService.save(tbContentCategory);
+
+        //传入用户信息验证成功
+        if (baseResult.getStatus() == 200) {
+            redirectAttributes.addFlashAttribute("baseResult", baseResult);//重定向之后就失效
+            return "redirect:/content/category_list";
+        }
+        //传入用户信息验证失败
+        else {
+            model.addAttribute("baseResult", baseResult);
+            return "content_category_form";
+        }
+
+    }
     /**
      * @Description 将查询出的数据作排序，来供treeTable使用，目的就是子节点的要紧接着夫节点之后
      * @Param       sourceList:源数据，targetList：排序后数据

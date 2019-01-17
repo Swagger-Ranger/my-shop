@@ -58,70 +58,39 @@
                         <!-- /.box-header -->
                         <!-- form start -->
                         <%--这里使用了SpringMVC的标签库，modelAttribute和path连用即modelAttribute.path就=${value},modelAttributex需要从controller层中传过来--%>
-                        <form:form id="inputForm" cssClass="form-horizontal" action="/content/save" method="post" modelAttribute="tbContent">
-                            <form:hidden path="id"></form:hidden>
+                        <form:form id="inputForm" cssClass="form-horizontal" action="/contentCategory/save" method="post" modelAttribute="tbContentCategory">
+                            <form:hidden path="id"/>
                             <!-- /.box-body -->
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label for="categoryId" class="col-sm-2 control-label">父级类目</label>
+                                    <label for="parentId" class="col-sm-2 control-label">父级类目</label>
 
                                     <div class="col-sm-10">
-                                        <form:hidden path="categoryId"></form:hidden>
-                                        <input id="categoryName" class="form-control required" placeholder="请选择" readonly="true" data-toggle="modal" data-target="#modal-default"/>
+                                        <form:hidden path="parentId"></form:hidden>
+                                        <input id="parentName" class="form-control required" placeholder="请选择" readonly="true" data-toggle="modal" data-target="#modal-default"/>
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="title" class="col-sm-2 control-label">标题</label>
+                                    <label for="name" class="col-sm-2 control-label">分类名称</label>
 
                                     <div class="col-sm-10">
-                                        <form:input path="title" class="form-control required" placeholder="标题"/>
+                                        <form:input path="name" class="form-control required" placehoder="分类名称"/>
                                     </div>
                                 </div>
+
                                 <div class="form-group">
-                                    <label for="subTitle" class="col-sm-2 control-label">子标题</label>
+                                    <label for="name" class="col-sm-2 control-label">分类排序</label>
 
                                     <div class="col-sm-10">
-                                        <form:input path="subTitle" class="form-control required" placeholder="子标题"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="titleDesc" class="col-sm-2 control-label">标题描述</label>
+                                        <form:input path="sortOrder" class="form-control required" placehoder="分类名称"/>
 
-                                    <div class="col-sm-10">
-                                        <form:input path="titleDesc" class="form-control required" placeholder="标题描述"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="url" class="col-sm-2 control-label">链接</label>
-
-                                    <div class="col-sm-10">
-                                        <form:input path="url" class="form-control required" placeholder="链接"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="pic" class="col-sm-2 control-label">图片1</label>
-
-                                    <div class="col-sm-10">
-                                        <form:input path="pic" class="form-control required" placeholder="图片1"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="pic2" class="col-sm-2 control-label">图片2</label>
-
-                                    <div class="col-sm-10">
-                                        <form:input path="pic2" class="form-control required" placeholder="图片2"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="content" class="col-sm-2 control-label">详情</label>
-
-                                    <div class="col-sm-10">
-                                        <form:input path="content" class="form-control required" placeholder="详情"/>
                                     </div>
                                 </div>
 
                             </div>
+
+
 
                             <!-- /.box-footer -->
                             <div class="box-footer">

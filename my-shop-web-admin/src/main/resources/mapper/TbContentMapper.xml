@@ -4,6 +4,7 @@
     <!--这里映射的id要和DAO接口里的方法对应，同时字段里如果名字不相等可以使用as,eg:a.username as userName;来将数据库字段和实体类属性对应，从而让工具能够自动封装-->
 
     <sql id="tbContentColumns">
+        a.id,
         a.category_id AS categoryId,
         a.title,
         a.sub_title AS subTitle,
@@ -49,7 +50,6 @@
             #{content},
             #{created},
             #{updated}
-          );
         )
     </insert>
 

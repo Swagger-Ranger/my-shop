@@ -2,16 +2,12 @@ package com.swaggerranger.my.shop.web.admin.service.impl;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.commons.dto.PageInfo;
-import com.swaggerranger.my.shop.commons.utils.RegExpUtils;
+import com.swaggerranger.my.shop.commons.validator.BeanValidator;
 import com.swaggerranger.my.shop.domain.TbContent;
-import com.swaggerranger.my.shop.domain.TbUser;
 import com.swaggerranger.my.shop.web.admin.dao.TbContentDao;
 import com.swaggerranger.my.shop.web.admin.service.TbContentService;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.DigestUtils;
-
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -39,10 +35,14 @@ public class TbContentServiceImpl implements TbContentService {
     @Override
     public BaseResult save( TbContent tbContent ) {
 
-        BaseResult baseResult = checkTbContent(tbContent);
+        String validator = BeanValidator.validator(tbContent);
 
-        //通过验证
-        if (baseResult.getStatus() == BaseResult.STATUS_SUCCESS) {
+        //验证不通过
+        if (validator != null) {
+            return BaseResult.fail(validator);
+        }
+        //验证通过
+        else {
             tbContent.setUpdated(new Date());
 
 
@@ -57,10 +57,9 @@ public class TbContentServiceImpl implements TbContentService {
                 tbContentDao.update(tbContent);
             }
 
-            baseResult.setMessage("保存用户信息成功");
+            return BaseResult.success("保存用户信息成功");
         }
 
-        return baseResult;
     }
 
     @Override
@@ -106,24 +105,4 @@ public class TbContentServiceImpl implements TbContentService {
         return tbContentDao.count(tbContent);
     }
 
-    /**
-     * @Description 有效性验证
-     * @Param
-     * @return
-     * @exception
-     */
-    private BaseResult checkTbContent( TbContent tbContent ) {
-        BaseResult baseResult = BaseResult.success();
-
-        if (tbContent.getCategoryId() == null) {
-            baseResult = BaseResult.fail("内容所属分类不能为空，请重新输入");
-        } else if (StringUtils.isBlank(tbContent.getContent())) {
-            baseResult = BaseResult.fail("内容不能为空，请重新输入");
-        } else if (StringUtils.isBlank(tbContent.getTitle())) {
-            baseResult = BaseResult.fail("标题不能为空，请重新输入");
-        } else if (StringUtils.isBlank(tbContent.getSubTitle())) {
-            baseResult = BaseResult.fail("子标题不能为空，请重新输入");
-        }
-        return baseResult;
-    }
 }

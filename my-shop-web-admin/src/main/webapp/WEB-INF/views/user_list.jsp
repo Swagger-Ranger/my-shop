@@ -148,8 +148,7 @@
         var _columns =[
             {
                 "data": function (row, type, val, meta) {
-                    return ' <td><input id="'+row.id+'" type="checkbox" class="minimal" /></td>'
-
+                    return '<input id="'+row.id+'" type="checkbox" class="minimal" />'
                 }
             },
             { "data": "id" },

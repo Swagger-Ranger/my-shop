@@ -11,4 +11,10 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
+    <!-- 配置 Bean Validator 定义,类的注入必须要被spring的component-scan扫描到，但，然后单独注入手动注入bean -->
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
+    <bean id="beanValidator" class="com.swaggerranger.my.shop.commons.validator.BeanValidator">
+        <!--这里是个静态的属性不是类，所以在前面就不能用@注入，spring只能注入对象不能注入属性，所以这里单独配置属性-->
+        <property name="validator" ref="validator" />
+    </bean>
 </beans>

@@ -3,6 +3,7 @@ package com.swaggerranger.my.shop.web.admin.service.impl;
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.commons.utils.RegExpUtils;
+import com.swaggerranger.my.shop.commons.validator.BeanValidator;
 import com.swaggerranger.my.shop.domain.TbUser;
 import com.swaggerranger.my.shop.web.admin.dao.TbUserDao;
 import com.swaggerranger.my.shop.web.admin.service.TbUserService;
@@ -37,10 +38,15 @@ public class TbUserServiceImpl implements TbUserService {
 
     @Override
     public BaseResult save( TbUser tbUser ) {
-        BaseResult baseResult = checkTbUser(tbUser);
+        String validator = BeanValidator.validator(tbUser);
 
-        //通过验证
-        if (baseResult.getStatus() == BaseResult.STATUS_SUCCESS) {
+        //验证不通过
+        if (validator != null) {
+            return BaseResult.fail(validator);
+        }
+        //验证通过
+        else {
+
             tbUser.setUpdated(new Date());
 
 
@@ -56,10 +62,8 @@ public class TbUserServiceImpl implements TbUserService {
                 tbUserDao.update(tbUser);
             }
 
-            baseResult.setMessage("保存用户信息成功");
+            return BaseResult.success("保存用户信息成功");
         }
-
-        return baseResult;
     }
 
     @Override
@@ -120,29 +124,4 @@ public class TbUserServiceImpl implements TbUserService {
         return tbUserDao.count(tbUser);
     }
 
-    /**
-     * @Description 用户的有效性验证
-     * @Param
-     * @return
-     * @exception
-     */
-    private BaseResult checkTbUser( TbUser tbUser ) {
-        BaseResult baseResult = BaseResult.success();
-
-        if (StringUtils.isBlank(tbUser.getEmail())) {
-            baseResult = BaseResult.fail("邮箱不能为空，请重新输入");
-        } else if (!RegExpUtils.checkEmail(tbUser.getEmail())) {
-            baseResult = BaseResult.fail("邮箱格式不正确，请重新输入");
-        } else if (StringUtils.isBlank(tbUser.getPassword())) {
-            baseResult = BaseResult.fail("密码不能为空，请重新输入");
-        } else if (StringUtils.isBlank(tbUser.getUsername())) {
-            baseResult = BaseResult.fail("姓名不能为空，请重新输入");
-        } else if (StringUtils.isBlank(tbUser.getPhone())) {
-            baseResult = BaseResult.fail("手机号不能为空，请重新输入");
-        } else if (!RegExpUtils.checkPhone(tbUser.getPhone())) {
-            baseResult = BaseResult.fail("手机号格式不正确，请重新输入");
-        }
-
-        return baseResult;
-    }
 }

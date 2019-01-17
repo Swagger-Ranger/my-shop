@@ -1,5 +1,6 @@
 package com.swaggerranger.my.shop.web.admin.dao;
 
+import com.swaggerranger.my.shop.domain.TbContent;
 import com.swaggerranger.my.shop.domain.TbContentCategory;
 import org.springframework.stereotype.Repository;
 
@@ -16,4 +17,20 @@ public interface TbContentCategoryDao {
      * @exception
      */
     List<TbContentCategory> selectByPid(Long pid);
+
+    /**
+     * @Description 新增
+     * @Param
+     * @return
+     * @exception
+     */
+    void insert( TbContentCategory tbContentCategory );
+
+    /**
+     * @Description 更新
+     * @Param
+     * @return
+     * @exception
+     */
+    void update( TbContentCategory tbContentCategory );
 }
