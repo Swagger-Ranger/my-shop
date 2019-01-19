@@ -8,7 +8,7 @@
 
     <description>Spring MVC Configuration</description>
 
-    <!-- 加载配置属性文件 -->
+    <!-- 加载配置属性文件,项目的配置统一配置在myshop.properties里，然后用这里的property-placeholder引进来 -->
     <context:property-placeholder ignore-unresolvable="true" location="classpath:myshop.properties"/>
 
     <!-- 使用 Annotation 自动注册 Bean,只扫描 @Controller -->
@@ -42,4 +42,9 @@
             <bean class="com.swaggerranger.my.shop.web.admin.web.interceptor.PermissionInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
+
+    <!-- 上传文件拦截，设置最大上传文件大小 10M = 10*1024*1024(B) = 10485760 bytes -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="${maxUploadSize}"/>
+    </bean>
 </beans>

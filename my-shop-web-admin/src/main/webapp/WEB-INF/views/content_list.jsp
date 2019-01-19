@@ -9,6 +9,7 @@
 <head>
     <title>我的商城 | 内容管理</title>
     <jsp:include page="../includes/header.jsp"/>
+
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">

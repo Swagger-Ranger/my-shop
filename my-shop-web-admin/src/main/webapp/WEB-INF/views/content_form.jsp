@@ -10,6 +10,10 @@
     <title>我的商城 | 内容管理</title>
     <jsp:include page="../includes/header.jsp"/>
     <link rel="stylesheet" href="/static/assets/plugins/jquery-ztree/css/zTreeStyle/zTreeStyle.min.css"/>
+    <%--dropzone图片上传，其中basic.css为拖拽的基本样式--%>
+    <link rel="stylesheet" href="/static/assets/plugins/dropzone/min/dropzone.min.css" />
+    <link rel="stylesheet" href="/static/assets/plugins/dropzone/min/basic.min.css" />
+    <link rel="stylesheet" href="/static/assets/plugins/dropzone/min/basic.min.css">
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -104,6 +108,10 @@
 
                                     <div class="col-sm-10">
                                         <form:input path="pic" class="form-control required" placeholder="图片1"/>
+                                        <%--div#dropz.dropzone+tab能就快速生成下面的标签--%>
+                                        <div id="dropz" class="dropzone">
+
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -147,6 +155,8 @@
 
 <sys:modal title="请选择" msg="<ul id='myTree' class='ztree'></ul>"/>
 
+<script src="/static/assets/plugins/dropzone/min/dropzone.min.js"></script>
+
 <script>
 
     $(function () {
@@ -158,6 +168,37 @@
         })
 
     });
+
+    Dropzone.options.dropz = {
+        url: "/upload",
+        dictDefaultMessage: '拖动文件至此或者点击上传', // 设置默认的提示语句
+        paramName: "dropzoneFile", // 传到后台的参数名称,这个名称要和上传控制器类里的上传方法参数一致
+        init: function () {
+            this.on("success", function (file, data) {
+                // 上传成功触发的事件
+                // console.log(file);
+                // console.log(data);
+                $("#pic").val(data.fileName);
+            });
+        }
+    };
+
+
+    //dropzone的方法二
+/*    Dropzone.autoDiscover = false;
+    var myDropzone = new Dropzone("#dropz", {
+        url: "/upload",
+        dictDefaultMessage: '拖动文件至此或者点击上传', // 设置默认的提示语句
+        paramName: "dropzoneFile", // 传到后台的参数名称,这个名称要和上传控制器类里的上传方法参数一致
+        init: function () {
+            this.on("success", function (file, data) {
+                // 上传成功触发的事件
+                // console.log(file);
+                // console.log(data);
+                $("#pic").val(data.fileName);
+            });
+        }
+    });*/
 </script>
 </body>
 </html>
