@@ -35,12 +35,12 @@ public class UploadController {
      */
     @ResponseBody
     @RequestMapping(value = "upload", method = RequestMethod.POST)
-    public Map<String, Object> upload( MultipartFile dropzoneFile, HttpServletRequest request ) {
+    public Map<String, Object> upload( MultipartFile dropFile, HttpServletRequest request ) {
 
         Map<String, Object> result = new HashMap<>();
 
         //文件名
-        String fileName = dropzoneFile.getOriginalFilename();
+        String fileName = dropFile.getOriginalFilename();
         String fileSuffix = fileName.substring(fileName.lastIndexOf("."));
         //存放路径
         String filePath = request.getSession().getServletContext().getRealPath(UPLOAD_PATH);
@@ -52,7 +52,7 @@ public class UploadController {
         file = new File(filePath, UUID.randomUUID() + fileSuffix);
 
         try {
-            dropzoneFile.transferTo(file);
+            dropFile.transferTo(file);
         } catch (IOException e) {
             e.printStackTrace();
         }

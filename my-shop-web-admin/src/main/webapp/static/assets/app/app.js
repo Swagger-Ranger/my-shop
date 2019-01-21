@@ -7,6 +7,25 @@ var App = function () {
     //批量删除的ID数组
     var _idArray;
 
+    //默认的dropzone参数
+    var defaultDropzoneOpts = {
+        url: "",
+        dictDefaultMessage: '拖动文件至此或者点击上传', // 设置默认的提示语句
+        paramName: "dropFile", // 传到后台的参数名称,这个名称要和上传控制器类里的上传方法参数一致
+        maxFiles: 1,// 一次性上传的文件数量上限
+        maxFilesize: 2, // 文件大小，单位：MB
+        acceptedFiles: ".jpg,.gif,.png,.jpeg", // 上传的类型
+        addRemoveLinks: true,
+        parallelUploads: 1,// 一次上传的文件数量
+        dictMaxFilesExceeded: "您最多只能上传" + this.maxFiles + "个文件！",
+        dictResponseError: '文件上传失败!',
+        dictInvalidFileType: "文件类型只能是*.jpg,*.gif,*.png,*.jpeg。",
+        dictFallbackMessage: "浏览器不受支持",
+        dictFileTooBig: "文件过大上传文件最大支持.",
+        dictRemoveLinks: "删除",
+        dictCancelUpload: "取消",
+    };
+
     /**
      * @Description 私有方法，激活ICheck
      */
@@ -221,6 +240,39 @@ var App = function () {
 
     };
 
+    /**
+     * @Description 初始化dropzone,这里使用方法二，不用dropzone的自动功能，手动操作dropzone
+     * @Param
+     * @return      
+     * @exception
+     *
+     方法一，直接自动发现，但相对而言自定义比较差
+     Dropzone.options.dropz = {
+            url: "/upload",
+            dictDefaultMessage: '拖动文件至此或者点击上传', // 设置默认的提示语句
+            paramName: "dropzoneFile", // 传到后台的参数名称,这个名称要和上传控制器类里的上传方法参数一致
+            init: function () {
+                this.on("success", function (file, data) {
+                    // 上传成功触发的事件
+                    // console.log(file);
+                    // console.log(data);
+                    $("#pic").val(data.fileName);
+                });
+            }
+        };
+
+     //dropzone的方法二,但需要关闭dropzone的自动发现功能即：Dropzone.autoDiscover = false;
+     */
+    var handlerInitDropzone = function (opts) {
+        Dropzone.autoDiscover = false;//关闭dropzone的自动发现功能
+
+        //合并两个参数并返回前一个参数defaultDropzoneOpts
+        $.extend(defaultDropzoneOpts, opts);
+
+        new Dropzone(defaultDropzoneOpts.id, defaultDropzoneOpts);
+
+    };
+
     return {
         /**
          * @Description 初始化
@@ -257,6 +309,17 @@ var App = function () {
          */
         initZTree: function (url, autoParam, callback) {
             handlerInitZTree(url, autoParam, callback);
+        },
+
+        /**
+         * @Description 初始化dropzone
+         * @Param
+         * @return
+         * @exception
+         */
+        initDropzone: function (opts) {
+            handlerInitDropzone(opts);
+
         }
     }
 
