@@ -13,7 +13,7 @@
     <%--dropzone图片上传，其中basic.css为拖拽的基本样式--%>
     <link rel="stylesheet" href="/static/assets/plugins/dropzone/dropzone.css" />
     <link rel="stylesheet" href="/static/assets/plugins/dropzone/min/basic.min.css" />
-    <%--<link rel="stylesheet" href="/static/assets/plugins/dropzone/min/basic.min.css">--%>
+    <link rel="stylesheet" href="/static/assets/plugins/wangEditor/wangEditor.css">
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -122,10 +122,10 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="content" class="col-sm-2 control-label">详情</label>
-
+                                    <label class="col-sm-2 control-label">详情</label>
                                     <div class="col-sm-10">
-                                        <form:input path="content" class="form-control required" placeholder="详情"/>
+                                        <form:hidden path="content"/>
+                                        <div id="editor">${tbContent.content}</div>
                                     </div>
                                 </div>
 
@@ -134,7 +134,7 @@
                             <!-- /.box-footer -->
                             <div class="box-footer">
                                 <button type="button" class="btn btn-default" onclick="history.go(-1)">返回</button>
-                                <button type="submit" class="btn btn-info pull-right">提交</button>
+                                <button id="btnSubmit" type="submit" class="btn btn-info pull-right">提交</button>
                             </div>
 
                         </form:form>
@@ -156,6 +156,7 @@
 <sys:modal title="请选择" msg="<ul id='myTree' class='ztree'></ul>"/>
 
 <script src="/static/assets/plugins/dropzone/min/dropzone.min.js"></script>
+<script src="/static/assets/plugins/wangEditor/wangEditor.min.js"></script>
 
 <script>
 
@@ -167,9 +168,28 @@
             $("#modal-default").modal("hide");
         });
 
+        initEditor();
 
 
     });
+
+    /**
+     * @Description 初始化富文本编辑器
+     */
+    function initEditor() {
+        //富文本编辑框
+        var E = window.wangEditor;
+        var editor = new E('#editor');
+        editor.customConfig.uploadImgServer = '/upload';
+        editor.customConfig.uploadFileName = 'editorFile'
+        // 或者 var editor = new E( document.getElementById('editor') )
+        editor.create();
+        $("#btnSubmit").bind("click", function () {
+            var contentHtml = editor.txt.html();//使用html的方式获取文本内容
+            $("#content").val(contentHtml);//将获取的文本放入隐藏域
+
+        });
+    }
 
     App.initDropzone({
         id: "#dropz",
