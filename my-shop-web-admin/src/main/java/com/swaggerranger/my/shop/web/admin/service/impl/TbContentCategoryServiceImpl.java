@@ -1,6 +1,7 @@
 package com.swaggerranger.my.shop.web.admin.service.impl;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.domain.TbContentCategory;
 import com.swaggerranger.my.shop.web.admin.dao.TbContentCategoryDao;
 import com.swaggerranger.my.shop.web.admin.service.TbContentCategoryService;
@@ -60,6 +61,36 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
         }
 
         return baseResult;
+    }
+
+    @Override
+    public void delete( Long id ) {
+
+    }
+
+    @Override
+    public TbContentCategory getById( Long id ) {
+        return null;
+    }
+
+    @Override
+    public void update( TbContentCategory entity ) {
+
+    }
+
+    @Override
+    public void deleteMulti( String[] ids ) {
+
+    }
+
+    @Override
+    public PageInfo<TbContentCategory> page( int draw, int start, int length, TbContentCategory entity ) {
+        return null;
+    }
+
+    @Override
+    public int count( TbContentCategory entity ) {
+        return 0;
     }
 
     /**
