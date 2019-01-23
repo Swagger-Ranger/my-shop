@@ -67,11 +67,11 @@
                             <!-- /.box-body -->
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label for="categoryId" class="col-sm-2 control-label">父级类目</label>
+                                    <label class="col-sm-2 control-label">父级类目</label>
 
                                     <div class="col-sm-10">
-                                        <form:hidden path="categoryId"></form:hidden>
-                                        <input id="categoryName" class="form-control required" placeholder="请选择" readonly="true" data-toggle="modal" data-target="#modal-default"/>
+                                        <form:hidden path="tbContentCategory.id"></form:hidden>
+                                        <input id="categoryName" class="form-control required" placeholder="请选择" readonly="true" data-toggle="modal" data-target="#modal-default" value="${tbContent.tbContentCategory.name}"/>
                                     </div>
                                 </div>
 

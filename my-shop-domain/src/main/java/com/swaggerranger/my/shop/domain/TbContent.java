@@ -18,7 +18,7 @@ import javax.validation.constraints.NotNull;
 public class TbContent extends BaseEntity {
 
     @NotNull(message = "父级类目不能为空")
-    private Long categoryId;
+    private TbContentCategory tbContentCategory;
 
     @Length(min = 1,max = 20,message = "标题长度介于1-20个字符之间")
     private String title;
