@@ -6,6 +6,7 @@ import com.swaggerranger.my.shop.web.admin.service.TbContentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -29,6 +30,21 @@ public class ContentCategoryController {
 
     @Autowired
     private TbContentCategoryService tbContentCategoryService;
+
+    /**
+     * @Description 这个用来从前端获取传入的参数，将多个参数绑定到一个对象，给页面显示使用
+     */
+    @ModelAttribute
+    public TbContentCategory getTbContentCategory( Long id ) {
+        TbContentCategory tbContentCategory;
+        //id不为空时，则从数据库获取
+        if (id != null) {
+            tbContentCategory = tbContentCategoryService.getById(id);
+        } else{
+            tbContentCategory = new TbContentCategory();
+        }
+        return tbContentCategory;
+    }
 
     @RequestMapping(value = "list", method = RequestMethod.GET)
     public String list( Model model ) {
@@ -85,12 +101,12 @@ public class ContentCategoryController {
      */
     private void sortList( List<TbContentCategory> sourceList, List<TbContentCategory> targetList, Long parentId ) {
         for (TbContentCategory contentCategory : sourceList) {
-            if (contentCategory.getParentId().equals(parentId)) {
+            if (contentCategory.getParent().getId().equals(parentId)) {
                 targetList.add(contentCategory);
 
                 if (contentCategory.getIsParent()) {
                     for (TbContentCategory contentCategory1 : sourceList) {
-                        if (contentCategory1.getParentId().equals(contentCategory.getId())) {
+                        if (contentCategory1.getParent().getId().equals(contentCategory.getId())) {
                             sortList(sourceList,targetList,contentCategory.getId());
                             break;
                         }

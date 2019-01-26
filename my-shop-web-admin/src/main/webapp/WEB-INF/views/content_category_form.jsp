@@ -33,7 +33,7 @@
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
-                <li class="active">控制面板</li>
+                <%--<li class="active">新增分类</li>--%>
             </ol>
         </section>
 
@@ -53,21 +53,22 @@
                     <!-- Horizontal Form -->
                     <div class="box box-info">
                         <div class="box-header with-border">
-                            <h3 class="box-title">${tbContent.id==null? "新增":"编辑"} 内容</h3>
+                            <h3 class="box-title">${tbContentCategory.id==null? "新增":"编辑"} 内容</h3>
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <%--这里使用了SpringMVC的标签库，modelAttribute和path连用即modelAttribute.path就=${value},modelAttributex需要从controller层中传过来--%>
-                        <form:form id="inputForm" cssClass="form-horizontal" action="/contentCategory/save" method="post" modelAttribute="tbContentCategory">
-                            <form:hidden path="id"/>
+                        <%--这里使用了SpringMVC的标签库，modelAttribute和path连用即modelAttribute.path就=${value},modelAttribute需要从controller层中传过来--%>
+                        <form:form id="inputForm" cssClass="form-horizontal" action="/content/category/save" method="post" modelAttribute="tbContentCategory">
+                            <form:hidden path="id"></form:hidden>
                             <!-- /.box-body -->
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label for="parentId" class="col-sm-2 control-label">父级类目</label>
+                                    <label class="col-sm-2 control-label">父级类目</label>
 
                                     <div class="col-sm-10">
-                                        <form:hidden path="parentId"></form:hidden>
-                                        <input id="parentName" class="form-control required" placeholder="请选择" readonly="true" data-toggle="modal" data-target="#modal-default"/>
+                                        <form:hidden path="parent.id"></form:hidden>
+                                        <input id="parentName" class="form-control required" placeholder="请选择" readonly="true" data-toggle="modal" data-target="#modal-default" value="${tbContentCategory.name}"/>
+
                                     </div>
                                 </div>
 
@@ -89,9 +90,6 @@
                                 </div>
 
                             </div>
-
-
-
                             <!-- /.box-footer -->
                             <div class="box-footer">
                                 <button type="button" class="btn btn-default" onclick="history.go(-1)">返回</button>

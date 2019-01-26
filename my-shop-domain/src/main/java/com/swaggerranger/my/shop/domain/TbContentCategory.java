@@ -14,7 +14,7 @@ import lombok.Data;
 @Data
 public class TbContentCategory extends BaseEntity {
 
-    private Long parentId;
+    private TbContentCategory parent;
     private String name;
     private Integer status;
     private Integer sortOrder;

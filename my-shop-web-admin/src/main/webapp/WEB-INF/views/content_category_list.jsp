@@ -73,7 +73,7 @@
                                 <tbody>
 
                                 <c:forEach items="${tbContentCategories}" var="tbContentCategory">
-                                    <tr id="${tbContentCategory.id}" pId="${tbContentCategory.parentId}">
+                                    <tr id="${tbContentCategory.id}" pId="${tbContentCategory.parent.id}">
                                         <td>${tbContentCategory.id}</td>
                                         <td>${tbContentCategory.name}</td>
                                         <td>${tbContentCategory.sortOrder}</td>

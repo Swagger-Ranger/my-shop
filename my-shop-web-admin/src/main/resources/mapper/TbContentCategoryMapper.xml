@@ -5,15 +5,14 @@
 
     <sql id="tbContentCategoryColumns">
         a.id,
-        a.parent_id AS parentId,
         a.name,
         a.status,
         a.sort_order AS sortOrder,
         a.is_parent AS isParent,
         a.created,
         a.updated,
-        NULLIF (b.id,'0') AS "parent.id",
-        NULLIF (b.name,'/') AS "parent.name"
+        IFNULL (b.id,'0') AS "parent.id",
+        IFNULL (b.name,'/') AS "parent.name"
     </sql>
 
     <sql id="tbContentCategoryJoins">
@@ -37,6 +36,7 @@
         <include refid="tbContentCategoryColumns"/>
         FROM
         tb_content_category AS a
+        <include refid="tbContentCategoryJoins"/>
         WHERE
         a.parent_id = #{parentId}
     </select>

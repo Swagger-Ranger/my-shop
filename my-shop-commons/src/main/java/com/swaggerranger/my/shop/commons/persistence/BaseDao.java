@@ -43,7 +43,7 @@ public interface BaseDao<T> {
      * @return
      * @exception
      */
-    T getById( long id );
+    T getById( Long id );
 
     /**
      * @Description 更新数据

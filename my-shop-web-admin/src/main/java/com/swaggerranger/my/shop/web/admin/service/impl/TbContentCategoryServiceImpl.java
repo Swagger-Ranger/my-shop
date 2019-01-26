@@ -102,7 +102,7 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
     private BaseResult checkTbContentCategory( TbContentCategory tbContentCategory ) {
         BaseResult baseResult = BaseResult.success();
 
-        if (tbContentCategory.getParentId() == null) {
+        if (tbContentCategory.getParent().getId() == null) {
             baseResult = BaseResult.fail("父级类目不能为空，请重新输入");
         } else if (StringUtils.isBlank(tbContentCategory.getName())) {
             baseResult = BaseResult.fail("分类名不能为空，请重新输入");
