@@ -1,0 +1,3 @@
+2019-01-08 23:32:49,065 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-01-08 23:46:06,111 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-01-08 23:46:07,554 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'

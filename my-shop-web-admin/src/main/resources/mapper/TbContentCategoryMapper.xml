@@ -11,15 +11,21 @@
         a.sort_order AS sortOrder,
         a.is_parent AS isParent,
         a.created,
-        a.updated
+        a.updated,
+        NULLIF (b.id,'0') AS "parent.id",
+        NULLIF (b.name,'/') AS "parent.name"
     </sql>
 
+    <sql id="tbContentCategoryJoins">
+        LEFT JOIN tb_content_category AS b ON a.parent_id=b.id
+    </sql>
 
     <select id="selectAll" resultType="TbContentCategory">
         SELECT
           <include refid="tbContentCategoryColumns"/>
         FROM
           tb_content_category AS a
+          <include refid="tbContentCategoryJoins"/>
         ORDER BY
           a.parent_id ASC,
           a.sort_order ASC,

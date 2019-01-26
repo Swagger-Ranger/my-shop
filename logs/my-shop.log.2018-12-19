@@ -1,0 +1,1035 @@
+2018-12-16 15:32:54,741 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 15:32:54,919 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 15:32:54 CST 2018]; root of context hierarchy
+2018-12-16 15:32:55,082 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 15:32:55,982 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1240 ms
+2018-12-16 15:32:56,105 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 15:32:56,116 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:32:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:32:56,231 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 15:32:57,157 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 15:32:57,159 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 15:32:57,160 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 15:32:57,350 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:32:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:32:57,488 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:32:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:32:57,677 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 15:32:57,787 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1681 ms
+2018-12-16 15:33:11,323 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 15:35:42,450 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:32:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:35:42,461 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 15:32:54 CST 2018]; root of context hierarchy
+2018-12-16 15:35:53,755 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 15:35:53,911 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 15:35:53 CST 2018]; root of context hierarchy
+2018-12-16 15:35:54,072 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 15:35:54,860 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1105 ms
+2018-12-16 15:35:54,964 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 15:35:54,973 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:35:54 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:35:55,071 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 15:35:55,864 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 15:35:55,866 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 15:35:55,867 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 15:35:55,867 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 15:35:56,018 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:35:54 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:35:56,137 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:35:54 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:35:56,283 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 15:35:56,373 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1409 ms
+2018-12-16 15:36:11,236 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 15:40:30,677 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:35:54 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:40:30,684 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 15:35:53 CST 2018]; root of context hierarchy
+2018-12-16 15:41:37,527 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 15:41:37,684 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 15:41:37 CST 2018]; root of context hierarchy
+2018-12-16 15:41:37,824 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 15:41:38,574 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1047 ms
+2018-12-16 15:41:38,683 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 15:41:38,692 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:41:38 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:41:38,788 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 15:41:39,546 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 15:41:39,546 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 15:41:39,546 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 15:41:39,546 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 15:41:39,712 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:41:38 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:41:39,824 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:41:38 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:41:39,965 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 15:41:40,043 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1360 ms
+2018-12-16 15:41:55,758 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:41:38 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:41:55,773 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 15:41:37 CST 2018]; root of context hierarchy
+2018-12-16 15:43:09,542 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 15:43:09,724 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 15:43:09 CST 2018]; root of context hierarchy
+2018-12-16 15:43:09,854 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 15:43:10,615 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1073 ms
+2018-12-16 15:43:10,715 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 15:43:10,724 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:43:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:43:10,823 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 15:43:11,581 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 15:43:11,581 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 15:43:11,581 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 15:43:11,581 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 15:43:11,740 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:43:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:43:11,840 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:43:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:43:11,996 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 15:43:12,074 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1359 ms
+2018-12-16 15:43:43,650 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 15:44:18,238 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:43:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:44:18,238 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 15:43:09 CST 2018]; root of context hierarchy
+2018-12-16 15:45:56,304 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 15:45:56,499 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 15:45:56 CST 2018]; root of context hierarchy
+2018-12-16 15:45:56,654 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 15:45:57,512 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1207 ms
+2018-12-16 15:45:57,632 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 15:45:57,644 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:45:57 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:45:57,766 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 15:45:58,658 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 15:45:58,661 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 15:45:58,661 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 15:45:58,662 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 15:45:58,836 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:45:57 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:45:58,969 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:45:57 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 15:45:59,140 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 15:45:59,237 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1605 ms
+2018-12-16 15:46:15,314 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 18:36:14,707 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 15:45:57 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:36:14,714 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 15:45:56 CST 2018]; root of context hierarchy
+2018-12-16 18:36:26,704 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 18:36:26,854 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 18:36:26 CST 2018]; root of context hierarchy
+2018-12-16 18:36:26,994 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 18:36:27,759 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1055 ms
+2018-12-16 18:36:27,854 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 18:36:27,854 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:36:27 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:36:27,963 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 18:36:28,728 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 18:36:28,730 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 18:36:28,730 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 18:36:28,731 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 18:36:28,870 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:36:27 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:36:28,980 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:36:27 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:36:29,120 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 18:36:29,214 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1360 ms
+2018-12-16 18:36:34,522 WARN [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 获取用户:"liufei32@outlook.comc"的信息失败
+2018-12-16 18:38:54,839 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:36:27 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:38:54,839 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 18:36:26 CST 2018]; root of context hierarchy
+2018-12-16 18:39:06,854 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 18:39:07,026 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 18:39:07 CST 2018]; root of context hierarchy
+2018-12-16 18:39:07,166 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 18:39:07,916 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1062 ms
+2018-12-16 18:39:08,026 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 18:39:08,026 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:39:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:39:08,135 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 18:39:08,917 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 18:39:08,917 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 18:39:08,917 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 18:39:08,917 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 18:39:09,073 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:39:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:39:09,198 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:39:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:39:09,354 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 18:39:09,432 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1406 ms
+2018-12-16 18:39:14,567 WARN [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 获取用户:"liufei32@outlook.com"的信息失败
+2018-12-16 18:39:50,366 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:39:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:39:50,366 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 18:39:07 CST 2018]; root of context hierarchy
+2018-12-16 18:40:02,302 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 18:40:02,458 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 18:40:02 CST 2018]; root of context hierarchy
+2018-12-16 18:40:02,604 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 18:40:03,354 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1052 ms
+2018-12-16 18:40:03,463 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 18:40:03,463 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:03,557 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 18:40:04,322 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 18:40:04,322 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 18:40:04,322 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 18:40:04,322 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 18:40:04,463 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:04,588 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:04,739 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 18:40:04,824 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1361 ms
+2018-12-16 18:40:11,185 WARN [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 获取用户:"liufei32@outlook.com"的信息失败
+2018-12-16 18:40:20,675 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:03 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:20,685 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 18:40:02 CST 2018]; root of context hierarchy
+2018-12-16 18:40:32,677 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 18:40:32,837 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 18:40:32 CST 2018]; root of context hierarchy
+2018-12-16 18:40:33,001 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 18:40:33,788 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1111 ms
+2018-12-16 18:40:33,892 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 18:40:33,901 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:33 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:34,001 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 18:40:34,802 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 18:40:34,804 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 18:40:34,804 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-12-16 18:40:34,805 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 18:40:34,958 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:33 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:35,078 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:33 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 18:40:35,226 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 18:40:35,321 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1429 ms
+2018-12-16 18:40:40,436 WARN [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 获取用户:"liufei32@outlook.com"的信息失败
+2018-12-16 19:08:43,416 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 18:40:33 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:08:43,424 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 18:40:32 CST 2018]; root of context hierarchy
+2018-12-16 19:08:55,490 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:08:55,644 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:08:55 CST 2018]; root of context hierarchy
+2018-12-16 19:08:55,805 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:08:56,597 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1107 ms
+2018-12-16 19:08:56,700 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:08:56,708 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:08:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:08:56,814 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:08:57,621 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,java.lang.Boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:08:57,623 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 19:08:57,623 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:08:57,624 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:08:57,774 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:08:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:08:57,892 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:08:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:08:58,046 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:08:58,137 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1437 ms
+2018-12-16 19:09:08,827 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:09:40,223 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:08:56 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:09:40,232 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:08:55 CST 2018]; root of context hierarchy
+2018-12-16 19:09:51,504 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:09:51,671 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:09:51 CST 2018]; root of context hierarchy
+2018-12-16 19:09:51,821 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:09:52,637 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1133 ms
+2018-12-16 19:09:52,741 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:09:52,750 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:09:52 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:09:52,851 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:09:53,661 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:09:53,663 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 19:09:53,663 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,java.lang.Boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:09:53,663 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:09:53,826 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:09:52 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:09:53,941 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:09:52 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:09:54,097 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:09:54,192 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1451 ms
+2018-12-16 19:10:02,681 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:10:24,859 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:09:52 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:10:24,872 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:09:51 CST 2018]; root of context hierarchy
+2018-12-16 19:10:36,233 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:10:36,392 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:10:36 CST 2018]; root of context hierarchy
+2018-12-16 19:10:36,555 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:10:37,362 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1129 ms
+2018-12-16 19:10:37,466 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:10:37,475 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:10:37 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:10:37,578 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:10:38,389 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,java.lang.Boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:10:38,391 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 19:10:38,391 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:10:38,392 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:10:38,546 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:10:37 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:10:38,667 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:10:37 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:10:38,828 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:10:38,921 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1455 ms
+2018-12-16 19:10:46,402 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:10:54,310 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:10:37 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:10:54,326 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:10:36 CST 2018]; root of context hierarchy
+2018-12-16 19:11:05,495 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:11:05,651 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:11:05 CST 2018]; root of context hierarchy
+2018-12-16 19:11:05,795 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:11:06,560 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1065 ms
+2018-12-16 19:11:06,669 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:11:06,678 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:11:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:11:06,778 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:11:07,535 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:11:07,535 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login()
+2018-12-16 19:11:07,535 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,java.lang.Boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:11:07,535 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:11:07,691 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:11:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:11:07,810 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:11:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:11:07,948 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:11:08,026 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1357 ms
+2018-12-16 19:27:36,067 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:11:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:27:36,074 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:11:05 CST 2018]; root of context hierarchy
+2018-12-16 19:27:48,173 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:27:48,326 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:27:48 CST 2018]; root of context hierarchy
+2018-12-16 19:27:48,473 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:27:49,275 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1102 ms
+2018-12-16 19:27:49,379 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:27:49,388 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:27:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:27:49,484 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:27:50,283 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,java.lang.Boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:27:50,285 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:27:50,285 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:27:50,285 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:27:50,438 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:27:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:27:50,557 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:27:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:27:50,709 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:27:50,802 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1422 ms
+2018-12-16 19:33:23,398 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:27:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:33:23,398 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:27:48 CST 2018]; root of context hierarchy
+2018-12-16 19:33:35,464 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:33:35,642 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:33:35 CST 2018]; root of context hierarchy
+2018-12-16 19:33:35,780 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:33:36,525 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1061 ms
+2018-12-16 19:33:36,639 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:33:36,648 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:33:36 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:33:36,744 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:33:37,497 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:33:37,513 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:33:37,513 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:33:37,513 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:33:37,662 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:33:36 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:33:37,781 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:33:36 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:33:37,926 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:33:38,004 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1365 ms
+2018-12-16 19:33:43,765 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:33:56,019 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:33:36 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:33:56,034 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:33:35 CST 2018]; root of context hierarchy
+2018-12-16 19:34:07,591 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:34:07,756 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:34:07 CST 2018]; root of context hierarchy
+2018-12-16 19:34:07,902 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:34:08,735 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1144 ms
+2018-12-16 19:34:08,823 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:34:08,839 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:34:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:34:08,933 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:34:09,727 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:34:09,729 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:34:09,729 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:34:09,730 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:34:09,885 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:34:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:34:09,999 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:34:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:34:10,177 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:34:10,263 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1440 ms
+2018-12-16 19:36:54,477 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:34:08 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:36:54,484 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:34:07 CST 2018]; root of context hierarchy
+2018-12-16 19:37:05,757 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:37:05,918 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:37:05 CST 2018]; root of context hierarchy
+2018-12-16 19:37:06,060 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:37:06,845 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1087 ms
+2018-12-16 19:37:06,950 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:37:06,959 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:37:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:37:07,057 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:37:07,857 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:37:07,859 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:37:07,859 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:37:07,860 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:37:08,012 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:37:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:37:08,131 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:37:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:37:08,283 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:37:08,373 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1423 ms
+2018-12-16 19:38:32,855 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:37:06 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:38:32,870 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:37:05 CST 2018]; root of context hierarchy
+2018-12-16 19:38:44,126 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:38:44,272 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:38:44 CST 2018]; root of context hierarchy
+2018-12-16 19:38:44,430 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:38:45,210 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1084 ms
+2018-12-16 19:38:45,304 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:38:45,319 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:38:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:38:45,413 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:38:46,193 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:38:46,193 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:38:46,193 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:38:46,193 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:38:46,333 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:38:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:38:46,443 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:38:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:38:46,599 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:38:46,690 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1386 ms
+2018-12-16 19:39:03,702 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:39:37,276 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:38:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:39:37,292 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:38:44 CST 2018]; root of context hierarchy
+2018-12-16 19:39:48,464 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:39:48,607 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:39:48 CST 2018]; root of context hierarchy
+2018-12-16 19:39:48,761 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:39:49,536 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1072 ms
+2018-12-16 19:39:49,639 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:39:49,647 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:39:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:39:49,744 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:39:50,494 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:39:50,494 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:39:50,510 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:39:50,510 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:39:50,662 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:39:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:39:50,780 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:39:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:39:50,918 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:39:51,012 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1373 ms
+2018-12-16 19:40:00,816 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:41:41,078 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:39:49 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:41:41,094 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:39:48 CST 2018]; root of context hierarchy
+2018-12-16 19:41:52,293 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:41:52,444 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:41:52 CST 2018]; root of context hierarchy
+2018-12-16 19:41:52,585 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:41:53,368 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1075 ms
+2018-12-16 19:41:53,478 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:41:53,480 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:41:53 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:41:53,574 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:41:54,338 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:41:54,354 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:41:54,354 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:41:54,354 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:41:54,498 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:41:53 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:41:54,607 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:41:53 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:41:54,759 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:41:54,848 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1370 ms
+2018-12-16 19:42:03,743 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:45:58,041 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:41:53 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:45:58,049 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:41:52 CST 2018]; root of context hierarchy
+2018-12-16 19:46:09,292 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:46:09,448 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:46:09 CST 2018]; root of context hierarchy
+2018-12-16 19:46:09,573 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:46:10,370 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1078 ms
+2018-12-16 19:46:10,464 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:46:10,464 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:10,558 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:46:11,339 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:46:11,339 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:46:11,339 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:46:11,339 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:46:11,486 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:11,596 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:11,751 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:46:11,839 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1375 ms
+2018-12-16 19:46:22,532 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:46:33,412 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:10 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:33,412 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:46:09 CST 2018]; root of context hierarchy
+2018-12-16 19:46:44,588 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:46:44,756 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:46:44 CST 2018]; root of context hierarchy
+2018-12-16 19:46:44,885 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:46:45,665 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1077 ms
+2018-12-16 19:46:45,762 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:46:45,771 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:45,871 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:46:46,664 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:46:46,666 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:46:46,666 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:46:46,667 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:46:46,815 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:46,917 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:46:47,058 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:46:47,147 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1385 ms
+2018-12-16 19:46:57,886 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:55:18,456 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:46:45 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:55:18,466 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:46:44 CST 2018]; root of context hierarchy
+2018-12-16 19:55:30,369 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:55:30,541 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:55:30 CST 2018]; root of context hierarchy
+2018-12-16 19:55:30,693 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:55:31,451 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1082 ms
+2018-12-16 19:55:31,545 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:55:31,561 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:55:31 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:55:31,658 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:55:32,425 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:55:32,425 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:55:32,425 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:55:32,425 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:55:32,573 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:55:31 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:55:32,706 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:55:31 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:55:32,854 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:55:32,932 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1387 ms
+2018-12-16 19:55:41,235 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:55:49,773 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:55:31 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:55:49,795 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:55:30 CST 2018]; root of context hierarchy
+2018-12-16 19:56:01,228 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:56:01,415 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:56:01 CST 2018]; root of context hierarchy
+2018-12-16 19:56:01,559 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:56:02,355 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1127 ms
+2018-12-16 19:56:02,460 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:56:02,468 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:02 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:02,566 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:56:03,370 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:56:03,370 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:56:03,370 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:56:03,385 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:56:03,513 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:02 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:03,639 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:02 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:03,789 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:56:03,891 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1431 ms
+2018-12-16 19:56:24,361 INFO [com.swaggerranger.my.shop.web.admin.dao.impl.UserDaoImpl] - 成功获取用户："Swagger-Ranger"的信息
+2018-12-16 19:56:30,031 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:02 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:30,031 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:56:01 CST 2018]; root of context hierarchy
+2018-12-16 19:56:41,214 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 19:56:41,368 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 19:56:41 CST 2018]; root of context hierarchy
+2018-12-16 19:56:41,513 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 19:56:42,335 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1121 ms
+2018-12-16 19:56:42,440 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 19:56:42,448 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:42 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:42,556 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 19:56:43,379 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 19:56:43,381 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:56:43,381 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 19:56:43,381 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 19:56:43,542 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:42 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:43,658 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:42 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 19:56:43,819 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 19:56:43,913 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1473 ms
+2018-12-16 23:30:26,957 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 19:56:42 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 23:30:26,958 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sun Dec 16 19:56:41 CST 2018]; root of context hierarchy
+2018-12-16 23:30:39,705 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2018-12-16 23:30:39,882 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sun Dec 16 23:30:39 CST 2018]; root of context hierarchy
+2018-12-16 23:30:40,042 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2018-12-16 23:30:40,202 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2018-12-16 23:30:41,540 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-16 23:30:41,650 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1945 ms
+2018-12-16 23:30:41,732 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2018-12-16 23:30:41,742 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 23:30:41 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 23:30:41,861 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2018-12-16 23:30:42,705 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-16 23:30:42,707 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.login(javax.servlet.http.HttpServletRequest)
+2018-12-16 23:30:42,707 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2018-12-16 23:30:42,707 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.swaggerranger.my.shop.web.admin.web.controller.MainController.main()
+2018-12-16 23:30:42,901 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 23:30:41 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 23:30:43,060 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Sun Dec 16 23:30:41 CST 2018]; parent: Root WebApplicationContext
+2018-12-16 23:30:43,224 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2018-12-16 23:30:43,329 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1597 ms
+2018-12-18 15:57:40,683 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 15:57:40,719 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 15:57:40,861 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 15:57:41,274 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 15:57:41,313 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 15:57:41,336 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 15:57:41 CST 2018]; root of context hierarchy
+2018-12-18 15:57:42,030 ERROR [com.alibaba.druid.pool.DruidDataSource] - init datasource error, url: jdbc:mysql://127.0.0.1:3306/my-shop?useUnicode=true&characterEncoding=utf-8&useSSL=false
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:854)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1763)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1700)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1257)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:249)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-12-18 15:57:42,044 ERROR [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} init error
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:854)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1763)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1700)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1257)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:249)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-12-18 15:57:42,049 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 15:57:42,054 WARN [org.springframework.context.support.GenericApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbUserServiceImpl': Unsatisfied dependency expressed through field 'tbUserDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbUserDao' defined in file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\classes\com\swaggerranger\my\shop\web\admin\dao\TbUserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-context-mybatis.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [spring-context-druid.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+2018-12-18 15:57:42,056 ERROR [com.alibaba.druid.pool.DruidDataSource] - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/my-shop?useUnicode=true&characterEncoding=utf-8&useSSL=false, errorCode 1049, state 42000
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2450)
+2018-12-18 15:57:42,057 ERROR [org.springframework.test.context.TestContextManager] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61] to prepare test instance [com.swaggerranger.my.shop.web.admin.service.test.TbUserServiceTest@1e5415e]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbUserServiceImpl': Unsatisfied dependency expressed through field 'tbUserDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbUserDao' defined in file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\classes\com\swaggerranger\my\shop\web\admin\dao\TbUserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-context-mybatis.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [spring-context-druid.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:106)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:249)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tbUserDao' defined in file [C:\Swagger-Ranger\git-workspace\my-shop\my-shop-web-admin\target\classes\com\swaggerranger\my\shop\web\admin\dao\TbUserDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-context-mybatis.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [spring-context-druid.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1257)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 42 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [spring-context-mybatis.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [spring-context-druid.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1350)
+	... 53 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [spring-context-druid.xml]: Invocation of init method failed; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 66 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:854)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1763)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1700)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	... 73 more
+2018-12-18 15:57:42,060 ERROR [com.alibaba.druid.pool.DruidDataSource] - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/my-shop?useUnicode=true&characterEncoding=utf-8&useSSL=false, errorCode 1049, state 42000
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'my-shop'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2190)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:149)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:143)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1512)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1575)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2450)
+2018-12-18 15:58:41,233 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 15:58:41,259 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 15:58:41,394 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 15:58:41,673 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 15:58:41,704 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 15:58:41,722 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue Dec 18 15:58:41 CST 2018]; root of context hierarchy
+2018-12-18 15:58:42,564 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 15:58:42,992 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue Dec 18 15:58:41 CST 2018]; root of context hierarchy
+2018-12-18 15:58:42,996 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 15:59:35,435 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 15:59:35,460 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 15:59:35,594 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 15:59:35,885 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 15:59:35,917 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 15:59:35,936 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue Dec 18 15:59:35 CST 2018]; root of context hierarchy
+2018-12-18 15:59:36,824 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 15:59:37,231 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@cb644e: startup date [Tue Dec 18 15:59:35 CST 2018]; root of context hierarchy
+2018-12-18 15:59:37,236 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 22:19:22,313 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 22:19:22,341 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 22:19:22,506 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 22:19:22,879 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 22:19:22,919 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 22:19:22,944 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 22:19:22 CST 2018]; root of context hierarchy
+2018-12-18 22:19:23,825 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 22:19:24,250 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 22:19:22 CST 2018]; root of context hierarchy
+2018-12-18 22:19:24,255 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 22:21:25,396 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 22:21:25,422 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 22:21:25,548 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 22:21:25,793 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 22:21:25,823 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 22:21:25,842 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 22:21:25 CST 2018]; root of context hierarchy
+2018-12-18 22:21:26,575 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 22:21:26,923 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 22:21:25 CST 2018]; root of context hierarchy
+2018-12-18 22:21:26,926 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 22:26:21,571 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 22:26:21,594 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 22:26:21,718 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 22:26:21,975 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 22:26:22,005 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 22:26:22,022 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 22:26:22 CST 2018]; root of context hierarchy
+2018-12-18 22:26:22,762 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 22:26:23,135 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 22:26:22 CST 2018]; root of context hierarchy
+2018-12-18 22:26:23,140 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 22:53:18,589 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 22:53:18,612 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 22:53:18,723 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 22:53:18,982 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 22:53:19,008 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 22:53:19,026 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 22:53:19 CST 2018]; root of context hierarchy
+2018-12-18 22:53:19,844 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 22:53:20,218 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 22:53:19 CST 2018]; root of context hierarchy
+2018-12-18 22:53:20,222 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:01:31,308 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:01:31,332 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 23:01:31,444 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:01:31,678 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:01:31,704 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:01:31,722 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:01:31 CST 2018]; root of context hierarchy
+2018-12-18 23:01:32,445 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:01:32,842 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:01:31 CST 2018]; root of context hierarchy
+2018-12-18 23:01:32,847 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:04:44,688 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:04:44,709 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 23:04:44,828 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:04:45,068 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:04:45,097 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:04:45,112 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:04:45 CST 2018]; root of context hierarchy
+2018-12-18 23:04:45,855 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:04:46,224 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:04:45 CST 2018]; root of context hierarchy
+2018-12-18 23:04:46,228 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:31:15,084 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:31:15,105 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 23:31:15,217 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:31:15,455 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:31:15,483 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:31:15,500 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:31:15 CST 2018]; root of context hierarchy
+2018-12-18 23:31:16,248 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:31:16,660 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-12-18 23:31:16,687 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-12-18 23:31:16,704 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:31:15 CST 2018]; root of context hierarchy
+2018-12-18 23:31:16,708 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:32:20,243 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:32:20,267 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 23:32:20,384 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:32:20,640 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:32:20,667 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:32:20,681 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:32:20 CST 2018]; root of context hierarchy
+2018-12-18 23:32:21,399 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:32:21,840 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-12-18 23:32:21,861 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-12-18 23:32:21,876 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:32:20 CST 2018]; root of context hierarchy
+2018-12-18 23:32:21,880 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:35:41,479 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:35:41,498 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 23:35:41,615 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:35:41,858 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:35:41,892 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:35:41,908 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:35:41 CST 2018]; root of context hierarchy
+2018-12-18 23:35:42,692 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:35:43,104 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-12-18 23:35:43,126 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-12-18 23:35:43,144 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:35:41 CST 2018]; root of context hierarchy
+2018-12-18 23:35:43,149 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:38:51,085 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:38:51,106 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fc185, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b1d11, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@f5e5e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16d4b5c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@100a15d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1efea79]
+2018-12-18 23:38:51,224 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:38:51,466 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:38:51,495 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:38:51,509 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:38:51 CST 2018]; root of context hierarchy
+2018-12-18 23:38:52,276 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:38:52,665 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ea3742: startup date [Tue Dec 18 23:38:51 CST 2018]; root of context hierarchy
+2018-12-18 23:38:52,669 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:52:36,254 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:52:36,283 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 23:52:36,440 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:52:36,724 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:52:36,758 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:52:36,773 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:52:36 CST 2018]; root of context hierarchy
+2018-12-18 23:52:37,642 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:52:37,940 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:52:36 CST 2018]; root of context hierarchy
+2018-12-18 23:52:37,946 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-18 23:55:16,747 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-18 23:55:16,769 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cc05a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1933fd1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8a9f61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@153acfe, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16905e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d45ba]
+2018-12-18 23:55:16,882 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-18 23:55:17,118 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-18 23:55:17,148 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-18 23:55:17,165 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:55:17 CST 2018]; root of context hierarchy
+2018-12-18 23:55:17,894 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-18 23:55:18,290 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@ac3a89: startup date [Tue Dec 18 23:55:17 CST 2018]; root of context hierarchy
+2018-12-18 23:55:18,294 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-19 00:01:22,903 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-19 00:01:22,929 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@82f6ef, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@fc185, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b1d11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f5e5e3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16d4b5c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@100a15d]
+2018-12-19 00:01:23,046 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-19 00:01:23,291 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-19 00:01:23,321 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-19 00:01:23,339 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ec2012: startup date [Wed Dec 19 00:01:23 CST 2018]; root of context hierarchy
+2018-12-19 00:01:24,067 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-19 00:01:24,513 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ec2012: startup date [Wed Dec 19 00:01:23 CST 2018]; root of context hierarchy
+2018-12-19 00:01:24,517 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-19 00:03:17,594 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-19 00:03:17,614 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@82f6ef, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@fc185, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b1d11, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f5e5e3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@16d4b5c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@100a15d]
+2018-12-19 00:03:17,742 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2018-12-19 00:03:17,993 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2018-12-19 00:03:18,021 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2018-12-19 00:03:18,040 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@1ec2012: startup date [Wed Dec 19 00:03:18 CST 2018]; root of context hierarchy
+2018-12-19 00:03:18,767 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-19 00:03:19,222 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-12-19 00:03:19,244 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-12-19 00:03:19,272 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@1ec2012: startup date [Wed Dec 19 00:03:18 CST 2018]; root of context hierarchy
+2018-12-19 00:03:19,276 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed

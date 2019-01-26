@@ -78,9 +78,9 @@
                                         <td>${tbContentCategory.name}</td>
                                         <td>${tbContentCategory.sortOrder}</td>
                                         <td>
-                                            <a href="#" type="button" class="btn btn-sm btn-primary" onclick="                      "><i class="fa fa-edit"></i>编辑</a>&nbsp;&nbsp;
+                                            <a href="/content/category/form?id=${tbContentCategory.id}" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i>编辑</a>&nbsp;&nbsp;
                                             <button type="button" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i>删除</button>&nbsp;&nbsp;
-                                            <a href="#" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i>新增下级菜单</a>&nbsp;&nbsp;
+                                            <a href="/content/category/form?parent.id=${tbContentCategory.id}&parent.name=${tbContentCategory.name}" type="button" class="btn btn-sm btn-default"><i class="fa fa-plus"></i>新增下级菜单</a>&nbsp;&nbsp;
                                         </td>
                                     </tr>
                                 </c:forEach>
