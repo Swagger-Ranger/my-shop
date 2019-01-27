@@ -84,12 +84,12 @@ public class ContentCategoryController {
         //传入用户信息验证成功
         if (baseResult.getStatus() == 200) {
             redirectAttributes.addFlashAttribute("baseResult", baseResult);//重定向之后就失效
-            return "redirect:/content/category_list";
+            return "redirect:/content/category/list";
         }
         //传入用户信息验证失败
         else {
             model.addAttribute("baseResult", baseResult);
-            return "content_category_form";
+            return form(tbContentCategory);
         }
 
     }

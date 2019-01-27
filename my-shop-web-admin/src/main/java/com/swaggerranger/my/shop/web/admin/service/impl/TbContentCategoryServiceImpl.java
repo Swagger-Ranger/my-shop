@@ -2,10 +2,10 @@ package com.swaggerranger.my.shop.web.admin.service.impl;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.commons.dto.PageInfo;
+import com.swaggerranger.my.shop.commons.validator.BeanValidator;
 import com.swaggerranger.my.shop.domain.TbContentCategory;
 import com.swaggerranger.my.shop.web.admin.dao.TbContentCategoryDao;
 import com.swaggerranger.my.shop.web.admin.service.TbContentCategoryService;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -38,29 +38,57 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
     }
 
     @Override
-    public BaseResult save( TbContentCategory tbContentCategory ) {
-        BaseResult baseResult = checkTbContentCategory(tbContentCategory);
+    public BaseResult save( TbContentCategory entity ) {
 
-        //通过验证
-        if (baseResult.getStatus() == BaseResult.STATUS_SUCCESS) {
-            tbContentCategory.setUpdated(new Date());
+        String validator = BeanValidator.validator(entity);
 
-
-            //新增
-            if (tbContentCategory.getId() == null) {
-                tbContentCategory.setCreated(new Date());
-                tbContentCategoryDao.insert(tbContentCategory);
-            }
-
-            //编辑
-            else {
-                tbContentCategoryDao.update(tbContentCategory);
-            }
-
-            baseResult.setMessage("保存用户信息成功");
+        if (validator != null) {
+            return BaseResult.fail(validator);
         }
 
-        return baseResult;
+        else {
+            TbContentCategory parent = entity.getParent();
+
+            //没有选择父节点则默认设置为根目录:0
+            if (parent == null || parent.getId() == null) {
+                parent.setId(0L);
+                entity.setIsParent(true);
+
+            }
+
+            entity.setUpdated(new Date());
+
+            //新增
+            if (entity.getId() == null) {
+                entity.setCreated(new Date());
+                entity.setIsParent(false);
+
+                //判断当前节点有没有父节点
+                if (parent.getId() != 0L) {
+                    TbContentCategory currentCategoryParent = getById(parent.getId());
+                    if (currentCategoryParent != null) {
+                        //将父节点的isParent设置为true
+                        currentCategoryParent.setIsParent(true);
+                        update(currentCategoryParent);
+
+                    }
+                }
+
+                //父节点为0，表示为根节点
+                else{
+                    entity.setIsParent(true);
+                }
+
+                tbContentCategoryDao.insert(entity);
+            }
+
+
+            //修改
+            else {
+                tbContentCategoryDao.update(entity);
+            }
+            return BaseResult.success("保存分类信息成功");
+        }
     }
 
     @Override
@@ -75,7 +103,7 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
 
     @Override
     public void update( TbContentCategory entity ) {
-
+        tbContentCategoryDao.update(entity);
     }
 
     @Override
@@ -91,25 +119,6 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
     @Override
     public int count( TbContentCategory entity ) {
         return 0;
-    }
-
-    /**
-     * @Description 有效性验证
-     * @Param
-     * @return
-     * @exception
-     */
-    private BaseResult checkTbContentCategory( TbContentCategory tbContentCategory ) {
-        BaseResult baseResult = BaseResult.success();
-
-        if (tbContentCategory.getParent().getId() == null) {
-            baseResult = BaseResult.fail("父级类目不能为空，请重新输入");
-        } else if (StringUtils.isBlank(tbContentCategory.getName())) {
-            baseResult = BaseResult.fail("分类名不能为空，请重新输入");
-        } else if (tbContentCategory.getSortOrder() == null) {
-            baseResult = BaseResult.fail("内容排序数值不能为空，请重新输入");
-        }
-        return baseResult;
     }
 
 }

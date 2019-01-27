@@ -2,6 +2,9 @@ package com.swaggerranger.my.shop.domain;
 
 import com.swaggerranger.my.shop.commons.persistence.BaseEntity;
 import lombok.Data;
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotNull;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2019,github:Swagger-Ranger 
@@ -15,8 +18,12 @@ import lombok.Data;
 public class TbContentCategory extends BaseEntity {
 
     private TbContentCategory parent;
+
+    @Length(min=1,max = 20,message="分类名称必须介于1-20之间")
     private String name;
     private Integer status;
+
+    @NotNull(message = "排序数值不能为空")
     private Integer sortOrder;
     private Boolean isParent;
 }

@@ -50,4 +50,42 @@
         WHERE
         a.parent_id = #{parentId}
     </select>
+
+    <insert id="insert">
+        INSERT INTO `myshop`.`tb_content_category` (
+          `parent_id`,
+          `name`,
+          `status`,
+          `sort_order`,
+          `is_parent`,
+          `created`,
+          `updated`
+        )
+        VALUES
+          (
+            #{parent.id},
+            #{name},
+            #{status},
+            #{sortOrder},
+            #{isParent},
+            #{created},
+            #{updated}
+          );
+    </insert>
+
+    <update id="update">
+        UPDATE
+          `myshop`.`tb_content_category`
+        SET
+          `parent_id` = #{parent.id},
+          `name` = #{name},
+          `status` = #{status},
+          `sort_order` = #{sortOrder},
+          `is_parent` = #{isParent},
+          `created` = #{created},
+          `updated` = #{updated}
+        WHERE `id` = #{id};
+
+
+    </update>
 </mapper>
