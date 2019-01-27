@@ -25,10 +25,6 @@
 
 
     <select id="selectAll" resultType="TbContent">
-        <!--SELECT
-        <include refid="tbContentColumns"/>
-        FROM
-        tb_content AS a-->
         SELECT
         <include refid="tbContentColumns"/>
         FROM
@@ -69,14 +65,14 @@
     </delete>
 
     <select id="getById" resultType="TbContent">
-        SELECT
-        <include refid="tbContentColumns"/>
-        FROM
-        tb_content AS a
-        <include refid="tbContentJoins"/>
-        where
-        a.id=#{id}
-    </select>
+    SELECT
+    <include refid="tbContentColumns"/>
+    FROM
+    tb_content AS a
+    <include refid="tbContentJoins"/>
+    where
+    a.id=#{id}
+</select>
 
     <update id="update">
         UPDATE

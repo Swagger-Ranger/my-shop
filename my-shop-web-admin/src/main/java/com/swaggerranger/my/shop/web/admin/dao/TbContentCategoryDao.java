@@ -1,7 +1,6 @@
 package com.swaggerranger.my.shop.web.admin.dao;
 
 import com.swaggerranger.my.shop.commons.persistence.BaseDao;
-import com.swaggerranger.my.shop.domain.TbContent;
 import com.swaggerranger.my.shop.domain.TbContentCategory;
 import org.springframework.stereotype.Repository;
 

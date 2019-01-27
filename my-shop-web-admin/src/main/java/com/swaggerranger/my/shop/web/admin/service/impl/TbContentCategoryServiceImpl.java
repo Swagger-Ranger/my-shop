@@ -70,7 +70,7 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
 
     @Override
     public TbContentCategory getById( Long id ) {
-        return null;
+        return tbContentCategoryDao.getById(id);
     }
 
     @Override

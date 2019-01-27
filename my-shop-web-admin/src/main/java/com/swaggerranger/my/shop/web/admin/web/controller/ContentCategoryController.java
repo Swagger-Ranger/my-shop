@@ -72,7 +72,7 @@ public class ContentCategoryController {
      * @Param
      */
     @RequestMapping(value = "form", method = RequestMethod.GET)
-    public String form() {
+    public String form(TbContentCategory tbContentCategory) {
         return "content_category_form";
     }
 
