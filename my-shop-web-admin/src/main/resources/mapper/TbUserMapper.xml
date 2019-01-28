@@ -93,14 +93,14 @@
         FROM
         tb_user AS a
         <where>
-            <if test="tbUser.username != null and tbUser.username !=''">
-                AND a.username LIKE CONCAT('%',#{tbUser.username},'%')
+            <if test="pageParams.username != null and pageParams.username !=''">
+                AND a.username LIKE CONCAT('%',#{pageParams.username},'%')
             </if>
-            <if test="tbUser.phone != null and tbUser.phone !=''">
-                AND a.phone LIKE CONCAT('%',#{tbUser.phone},'%')
+            <if test="pageParams.phone != null and pageParams.phone !=''">
+                AND a.phone LIKE CONCAT('%',#{pageParams.phone},'%')
             </if>
-            <if test="tbUser.email != null and tbUser.email !=''">
-                AND a.email LIKE CONCAT('%',#{tbUser.email},'%')
+            <if test="pageParams.email != null and pageParams.email !=''">
+                AND a.email LIKE CONCAT('%',#{pageParams.email},'%')
             </if>
         </where>
         LIMIT #{start},#{length}

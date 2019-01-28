@@ -1,16 +1,13 @@
 package com.swaggerranger.my.shop.web.admin.service.impl;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
-import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.commons.validator.BeanValidator;
 import com.swaggerranger.my.shop.domain.TbContentCategory;
+import com.swaggerranger.my.shop.web.admin.abstracts.AbstractBaseTreeServiceImpl;
 import com.swaggerranger.my.shop.web.admin.dao.TbContentCategoryDao;
 import com.swaggerranger.my.shop.web.admin.service.TbContentCategoryService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Date;
-import java.util.List;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2019,github:Swagger-Ranger 
@@ -22,20 +19,7 @@ import java.util.List;
  *******************************************************************************/
 
 @Service
-public class TbContentCategoryServiceImpl implements TbContentCategoryService {
-
-    @Autowired
-    private TbContentCategoryDao tbContentCategoryDao;
-
-    @Override
-    public List<TbContentCategory> selectAll() {
-        return tbContentCategoryDao.selectAll();
-    }
-
-    @Override
-    public List<TbContentCategory> selectByPid( Long pid ) {
-        return tbContentCategoryDao.selectByPid(pid);
-    }
+public class TbContentCategoryServiceImpl extends AbstractBaseTreeServiceImpl<TbContentCategory,TbContentCategoryDao> implements TbContentCategoryService {
 
     @Override
     public BaseResult save( TbContentCategory entity ) {
@@ -79,46 +63,16 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
                     entity.setIsParent(true);
                 }
 
-                tbContentCategoryDao.insert(entity);
+                dao.insert(entity);
             }
 
 
             //修改
             else {
-                tbContentCategoryDao.update(entity);
+                update(entity);
             }
             return BaseResult.success("保存分类信息成功");
         }
-    }
-
-    @Override
-    public void delete( Long id ) {
-
-    }
-
-    @Override
-    public TbContentCategory getById( Long id ) {
-        return tbContentCategoryDao.getById(id);
-    }
-
-    @Override
-    public void update( TbContentCategory entity ) {
-        tbContentCategoryDao.update(entity);
-    }
-
-    @Override
-    public void deleteMulti( String[] ids ) {
-
-    }
-
-    @Override
-    public PageInfo<TbContentCategory> page( int draw, int start, int length, TbContentCategory entity ) {
-        return null;
-    }
-
-    @Override
-    public int count( TbContentCategory entity ) {
-        return 0;
     }
 
 }

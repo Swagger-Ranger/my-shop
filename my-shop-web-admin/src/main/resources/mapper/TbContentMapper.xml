@@ -108,14 +108,14 @@
         tb_content AS a
         <include refid="tbContentJoins"/>
         <where>
-            <if test="tbContent.title != null and tbContent.title !=''">
-                AND a.title LIKE CONCAT('%',#{tbContent.title},'%')
+            <if test="pageParams.title != null and pageParams.title !=''">
+                AND a.title LIKE CONCAT('%',#{pageParams.title},'%')
             </if>
-            <if test="tbContent.subTitle != null and tbContent.subTitle !=''">
-                AND a.sub_title LIKE CONCAT('%',#{tbContent.subTitle},'%')
+            <if test="pageParams.subTitle != null and pageParams.subTitle !=''">
+                AND a.sub_title LIKE CONCAT('%',#{pageParams.subTitle},'%')
             </if>
-            <if test="tbContent.titleDesc != null and tbContent.titleDesc !=''">
-                AND a.title_desc LIKE CONCAT('%',#{tbContent.titleDesc},'%')
+            <if test="pageParams.titleDesc != null and pageParams.titleDesc !=''">
+                AND a.title_desc LIKE CONCAT('%',#{pageParams.titleDesc},'%')
             </if>
         </where>
         LIMIT #{start},#{length}
