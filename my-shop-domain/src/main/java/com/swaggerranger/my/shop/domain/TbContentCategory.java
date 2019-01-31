@@ -1,6 +1,6 @@
 package com.swaggerranger.my.shop.domain;
 
-import com.swaggerranger.my.shop.commons.persistence.BaseEntity;
+import com.swaggerranger.my.shop.commons.persistence.BaseTreeEntity;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 
@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
  * @Aha-eureka:
  *******************************************************************************/
 @Data
-public class TbContentCategory extends BaseEntity {
+public class TbContentCategory extends BaseTreeEntity {
 
     private TbContentCategory parent;
 

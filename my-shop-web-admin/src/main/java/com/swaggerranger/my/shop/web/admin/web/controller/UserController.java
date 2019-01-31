@@ -3,9 +3,9 @@ package com.swaggerranger.my.shop.web.admin.web.controller;
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.domain.TbUser;
+import com.swaggerranger.my.shop.web.admin.abstracts.AbstractBaseController;
 import com.swaggerranger.my.shop.web.admin.service.TbUserService;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
 import javax.servlet.http.HttpServletRequest;
 
 /*******************************************************************************
@@ -26,10 +27,8 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 @RequestMapping(value = "user")
-public class UserController {
+public class UserController extends AbstractBaseController<TbUser,TbUserService> {
 
-    @Autowired
-    private TbUserService tbUserService;
 
     /**
      * @return
@@ -37,6 +36,7 @@ public class UserController {
      * @Description 跳转用户列表页,这里只是跳转页面，页面数据则在页面中ajax请求的数据然后封装pageInfo做分页显示
      * @Param
      */
+    @Override
     @RequestMapping(value = "list", method = RequestMethod.GET)
     public String list() {
         return "user_list";
@@ -56,7 +56,7 @@ public class UserController {
         TbUser tbUser;
         //id不为空时，则从数据库获取
         if (id != null) {
-            tbUser = tbUserService.getById(id);
+            tbUser = service.getById(id);
         }
 
         else{
@@ -72,6 +72,7 @@ public class UserController {
      * @Description 跳转用户表单页
      * @Param
      */
+    @Override
     @RequestMapping(value = "form", method = RequestMethod.GET)
     public String form() {
         return "user_form";
@@ -84,9 +85,10 @@ public class UserController {
      * @return
      * @exception
      */
+    @Override
     @RequestMapping(value = "save",method = RequestMethod.POST)
     public String save( TbUser tbUser, Model model,RedirectAttributes redirectAttributes ) {
-        BaseResult baseResult = tbUserService.save(tbUser);
+        BaseResult baseResult = service.save(tbUser);
 
         //传入用户信息验证成功
         if (baseResult.getStatus() == 200) {
@@ -107,6 +109,7 @@ public class UserController {
      * @return      String
      * @exception
      */
+    @Override
     @RequestMapping(value = "delete", method = RequestMethod.POST)
     @ResponseBody
     public BaseResult delete( String ids ) {
@@ -114,7 +117,7 @@ public class UserController {
 
         if (StringUtils.isNotBlank(ids)) {
             String[] idArray = ids.split(",");
-            tbUserService.deleteMulti(idArray);
+            service.deleteMulti(idArray);
             baseResult = BaseResult.success("删除成功");
         }
 
@@ -130,6 +133,7 @@ public class UserController {
      * @return
      * @exception
      */
+    @Override
     @ResponseBody
     @RequestMapping(value = "page",method = RequestMethod.GET)
     public PageInfo<TbUser> page( HttpServletRequest request ,TbUser tbUser) {
@@ -142,7 +146,7 @@ public class UserController {
         int length = strDraw == null ? 10 : Integer.parseInt(strLength);
 
         //封装dataTable需要地结果，详细的解释建注释的文档
-        PageInfo<TbUser> pageInfo = tbUserService.page(draw, start, length, tbUser);
+        PageInfo<TbUser> pageInfo = service.page(draw, start, length, tbUser);
 
         return pageInfo;
     }
@@ -153,6 +157,7 @@ public class UserController {
      * @return
      * @exception
      */
+    @Override
     @RequestMapping(value = "detail",method = RequestMethod.GET)
     public String detail( TbUser tbUser ) {
 //        System.out.println(tbUser.getUsername());
