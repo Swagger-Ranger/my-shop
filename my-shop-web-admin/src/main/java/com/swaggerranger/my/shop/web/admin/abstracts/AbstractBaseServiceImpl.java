@@ -5,6 +5,7 @@ import com.swaggerranger.my.shop.commons.persistence.BaseDao;
 import com.swaggerranger.my.shop.commons.persistence.BaseEntity;
 import com.swaggerranger.my.shop.commons.persistence.BaseService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
 import java.util.List;
@@ -42,6 +43,7 @@ public abstract class AbstractBaseServiceImpl<T extends BaseEntity, D extends Ba
      * @Param
      */
     @Override
+    @Transactional(readOnly = false)
     public void delete( Long id ) {
         dao.delete(id);
     }
@@ -64,6 +66,7 @@ public abstract class AbstractBaseServiceImpl<T extends BaseEntity, D extends Ba
      * @Param
      */
     @Override
+    @Transactional(readOnly = false)
     public void update( T entity ) {
         dao.update(entity);
     }
@@ -75,6 +78,7 @@ public abstract class AbstractBaseServiceImpl<T extends BaseEntity, D extends Ba
      * @Param
      */
     @Override
+    @Transactional(readOnly = false)
     public void deleteMulti( String[] ids ) {
         dao.deleteMulti(ids);
     }

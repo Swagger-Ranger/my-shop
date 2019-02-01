@@ -7,6 +7,7 @@ import com.swaggerranger.my.shop.web.admin.abstracts.AbstractBaseServiceImpl;
 import com.swaggerranger.my.shop.web.admin.dao.TbUserDao;
 import com.swaggerranger.my.shop.web.admin.service.TbUserService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 
 import java.util.Date;
@@ -20,10 +21,12 @@ import java.util.Date;
  * @Aha-eureka:
  *******************************************************************************/
 @Service
+@Transactional(readOnly = true)
 public class TbUserServiceImpl extends AbstractBaseServiceImpl<TbUser,TbUserDao> implements TbUserService {
 
 
     @Override
+    @Transactional(readOnly = false)
     public BaseResult save( TbUser tbUser ) {
         String validator = BeanValidator.validator(tbUser);
 
