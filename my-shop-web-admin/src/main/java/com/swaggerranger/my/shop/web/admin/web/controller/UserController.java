@@ -1,7 +1,6 @@
 package com.swaggerranger.my.shop.web.admin.web.controller;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
-import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.domain.TbUser;
 import com.swaggerranger.my.shop.web.admin.abstracts.AbstractBaseController;
 import com.swaggerranger.my.shop.web.admin.service.TbUserService;
@@ -13,8 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
-import javax.servlet.http.HttpServletRequest;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2018,github:Swagger-Ranger 
@@ -127,29 +124,6 @@ public class UserController extends AbstractBaseController<TbUser,TbUserService>
         return baseResult;
     }
 
-    /**
-     * @Description 分页查询的后台处理,框架dataTable请求后台：http://www.datatables.club/manual/server-side.html
-     * @Param
-     * @return
-     * @exception
-     */
-    @Override
-    @ResponseBody
-    @RequestMapping(value = "page",method = RequestMethod.GET)
-    public PageInfo<TbUser> page( HttpServletRequest request ,TbUser tbUser) {
-        //处理传参
-        String strDraw = request.getParameter("draw");
-        String strStart = request.getParameter("start");
-        String strLength = request.getParameter("length");
-        int draw = strDraw == null ? 0 : Integer.parseInt(strDraw);
-        int start = strDraw == null ? 0 : Integer.parseInt(strStart);
-        int length = strDraw == null ? 10 : Integer.parseInt(strLength);
-
-        //封装dataTable需要地结果，详细的解释建注释的文档
-        PageInfo<TbUser> pageInfo = service.page(draw, start, length, tbUser);
-
-        return pageInfo;
-    }
 
     /**
      * @Description 前端传入一个id，所有的@ResposeBody 都会先经过@ModelAttribute来将传入的参数封装成对象，所有这里传入的就是一个TbUser
@@ -160,7 +134,6 @@ public class UserController extends AbstractBaseController<TbUser,TbUserService>
     @Override
     @RequestMapping(value = "detail",method = RequestMethod.GET)
     public String detail( TbUser tbUser ) {
-//        System.out.println(tbUser.getUsername());
         return "user_detail";
     }
 }

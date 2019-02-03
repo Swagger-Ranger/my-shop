@@ -1,8 +1,8 @@
 package com.swaggerranger.my.shop.web.admin.web.controller;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
-import com.swaggerranger.my.shop.commons.dto.PageInfo;
 import com.swaggerranger.my.shop.domain.TbContent;
+import com.swaggerranger.my.shop.web.admin.abstracts.AbstractBaseController;
 import com.swaggerranger.my.shop.web.admin.service.TbContentService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
-import javax.servlet.http.HttpServletRequest;
 
 /*******************************************************************************
  * @Copyright (C), 2018-2019,github:Swagger-Ranger 
@@ -27,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 @RequestMapping(value = "content")
-public class ContentController {
+public class ContentController extends AbstractBaseController<TbContent,TbContentService> {
 
     @Autowired
     private TbContentService tbContentService;
@@ -124,28 +122,6 @@ public class ContentController {
         return baseResult;
     }
 
-    /**
-     * @Description 分页查询的后台处理,框架dataTable请求后台：http://www.datatables.club/manual/server-side.html
-     * @Param
-     * @return
-     * @exception
-     */
-    @ResponseBody
-    @RequestMapping(value = "page",method = RequestMethod.GET)
-    public PageInfo<TbContent> page( HttpServletRequest request , TbContent tbContent) {
-        //处理传参
-        String strDraw = request.getParameter("draw");
-        String strStart = request.getParameter("start");
-        String strLength = request.getParameter("length");
-        int draw = strDraw == null ? 0 : Integer.parseInt(strDraw);
-        int start = strDraw == null ? 0 : Integer.parseInt(strStart);
-        int length = strDraw == null ? 10 : Integer.parseInt(strLength);
-
-        //封装dataTable需要地结果，详细的解释建注释的文档
-        PageInfo<TbContent> pageInfo = tbContentService.page(draw, start, length, tbContent);
-
-        return pageInfo;
-    }
 
     /**
      * @Description 前端传入一个id，所有的@ResposeBody 都会先经过@ModelAttribute来将传入的参数封装成对象
