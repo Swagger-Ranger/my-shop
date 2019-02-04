@@ -61,6 +61,31 @@ var App = function () {
     };
 
     /**
+     * @Description 单个删除
+     */
+    var handlerDeleteSingle = function (url,id,msg) {
+        //JS可选参数,让代码更加简洁
+        if(!msg) msg = null;
+
+        console.log(id);
+
+        _idArray = new Array();
+        _idArray.push(id);
+        console.log(_idArray.toString());
+
+        $("#modalMsg").html(msg == null ? "确认删除?" : msg);
+        $("#modal-default").modal("show");
+
+        //绑定删除事件
+        $("#modalBtnOK").bind("click", function () {
+            handlerDeleteData(url);
+        });
+
+    };
+
+
+
+    /**
      * @Description 批量删除
      */
     var handlerDeleteMulti = function (url) {
@@ -85,53 +110,52 @@ var App = function () {
         $("#modal-default").modal("show");
 
         $("#modalBtnOK").bind("click",function () {
-            del();
+            handlerDeleteData(url);
         });
 
-
-        /**
-         * @Description 当前私有函数的私有函数
-         */
-        function del() {
-            $("#modal-default").modal("hide");
-            //如果没有选中数据，点击确定就关闭模态框
-            if (_idArray.length === 0) {
-                //...
-            }
-            //否则就删除数据
-            else {
-                setTimeout(function () {
-                    $.ajax({
-                        "url": url,
-                        "type": "POST",
-                        "data": {"ids": _idArray.toString()},
-                        "dataType": "JSON",
-                        "success": function (data) {
-
-                            //请求成功后，都有弹出模态框，所以先解绑
-                            $("#modalBtnOK").unbind("click");
-                            $("#modalMsg").html(data.message);
-                            $("#modal-default").modal("show");
-                            //请求成功刷新页面
-                            if (data.status === 200) {
-                                $("#modalBtnOK").bind("click", function () {
-                                    window.location.reload();
-                                });
-                            }
-
-                            //请求失败，隐藏模态框
-                            else {
-                                $("#modalBtnOK").bind("click", function () {
-                                    $("#modal-default").modal("hide");
-                                });
-                            }
-                        }
-                    });
-                }, 500);
-
-            }
-        }
     };
+
+    /**
+     * @Description AJAX异步删除
+     * @Param       url
+     */
+    var handlerDeleteData = function (url) {
+        $("#modal-default").modal("hide");
+        //如果没有选中数据，点击确定就关闭模态框
+        if (_idArray.length > 0) {
+            setTimeout(function () {
+                $.ajax({
+                    "url": url,
+                    "type": "POST",
+                    "data": {"ids": _idArray.toString()},
+                    "dataType": "JSON",
+                    "success": function (data) {
+
+                        //请求成功后，都有弹出模态框，所以先解绑
+                        $("#modalBtnOK").unbind("click");
+                        $("#modalMsg").html(data.message);
+                        $("#modal-default").modal("show");
+                        //请求成功刷新页面
+                        if (data.status === 200) {
+                            $("#modalBtnOK").bind("click", function () {
+                                window.location.reload();
+                            });
+                        }
+
+                        //请求失败，隐藏模态框
+                        else {
+                            $("#modalBtnOK").bind("click", function () {
+                                $("#modal-default").modal("hide");
+                            });
+                        }
+                    }
+                });
+            }, 500);
+
+        }
+
+    };
+
 
     /**
      * @Description 初始化DataTables
@@ -289,6 +313,12 @@ var App = function () {
             handlerDeleteMulti(url);
         },
 
+        /**
+         * @Description 单个删除
+         */
+        deleteSingle: function (url,id,msg) {
+            handlerDeleteSingle(url,id,msg);
+        },
 
         initDataTables: function (url,columns) {
             return handlerInitDataTables(url, columns);
