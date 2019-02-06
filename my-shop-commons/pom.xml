@@ -86,5 +86,13 @@
             <version>${hibernate-validator.version}</version>
         </dependency>
         <!--spring validate end-->
+
+        <!--Spring MVC 上传文件 begin-->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
+        <!--Spring MVC 上传文件 end-->
+
     </dependencies>
 </project>
