@@ -1,14 +1,12 @@
-package com.swaggerranger.my.shop.web.api.web.controller;
+package com.swaggerranger.my.shop.web.api.web.controller.v1;
 
+import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.domain.TbContent;
 import com.swaggerranger.my.shop.web.api.service.TbContentService;
 import com.swaggerranger.my.shop.web.api.web.dto.TbContentDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +21,7 @@ import java.util.List;
  *******************************************************************************/
 
 @RestController
-@RequestMapping(value = "content")
+@RequestMapping(value = "${api.path.v1}/contents")
 public class TbContentController {
 
     @Autowired
@@ -41,13 +39,13 @@ public class TbContentController {
     }
 
     /**
-     * @Description 没有使用@ResponseBody注解来返回json，因为类的注解是@RestController
-     * @Param
+     * @Description 根据内容id查询列表，没有使用@ResponseBody注解来返回json，因为类的注解是@RestController
+     * @Param       http://localhost:8081/api/v1/contents/89
      * @return
      * @exception
      */
-    @RequestMapping(value = "findContentByCategoryId",method = RequestMethod.GET)
-    public List<TbContentDTO> findContentByCategoryId(Long categoryId ) {
+    @RequestMapping(value = "{category_id}",method = RequestMethod.GET)
+    public BaseResult findContentByCategoryId( @PathVariable(value = "category_id") Long categoryId ) {
         List<TbContentDTO> tbContentDTOS = null;
         List<TbContent> tbContents = tbContentService.selectByCategoryId(categoryId);
 
@@ -59,6 +57,6 @@ public class TbContentController {
                 tbContentDTOS.add(dto);
             }
         }
-        return tbContentDTOS;
+        return BaseResult.success("success",tbContentDTOS);
     }
 }
