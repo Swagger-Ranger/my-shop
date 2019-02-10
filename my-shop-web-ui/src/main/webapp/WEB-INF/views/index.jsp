@@ -702,6 +702,2024 @@
         </div>
     </div>
 
+    <!--快速通道栏-->
+    <div class="kuanjlan">
+        <ul class="clearfix">
+            <li>
+                <div class="list-li-box">
+                    <a class="list-img" href="#" data-code="index01004-1" target="_blank">
+                        <img src="/static/images/meinv_1.jpg">
+                        <span class="list-bg"></span>
+                        <div class="list-cont">
+                            <p class="cont-item"><span>羽饰</span></p>
+                            <p class="cont-tile">秋季来点羽毛元素</p>
+                            <p class="cont-info">让你更加美丽迷人</p>
+                        </div>
+                    </a>
+                </div>
+
+            </li>
+            <li>
+                <div class="list-li-box">
+                    <a class="list-img" href="#" data-code="index01004-2" target="_blank">
+                        <img src="/static/images/meinv_2.jpg">
+                        <span class="list-bg"></span>
+                        <div class="list-cont">
+                            <p class="cont-item"><span>原宿风</span></p>
+                            <p class="cont-tile">个性夸张美衣</p>
+                            <p class="cont-info">潮流原宿风</p>
+                        </div>
+                    </a>
+                </div>
+
+            </li>
+            <li>
+                <div class="list-li-box">
+                    <a class="list-img" href="#" data-code="index01004-3" target="_blank">
+                        <img src="/static/images/meinv_3.jpg">
+                        <span class="list-bg"></span>
+                        <div class="list-cont">
+                            <p class="cont-item"><span>皮裤</span></p>
+                            <p class="cont-tile">高腰修身皮裤</p>
+                            <p class="cont-info">轻松享受女神感觉</p>
+                        </div>
+                    </a>
+                </div>
+
+            </li>
+            <li>
+                <div class="list-li-box">
+                    <a class="list-img" href="#" data-code="index01004-4" target="_blank">
+                        <img src="/static/images/meinv_4.jpg">
+                        <span class="list-bg"></span>
+                        <div class="list-cont">
+                            <p class="cont-item"><span>服装</span></p>
+                            <p class="cont-tile">变身女神范儿</p>
+                            <p class="cont-info">几种搭配轻松打造</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
+
+<!--层次-->
+<div class="chengc_jvz">
+    <div class="slideTxtBox">
+        <div class="hd">
+            <h1>
+                <p>办公家具</p>
+                <p class="yingw_">Office furniture</p>
+            </h1>
+            <ul><li>精品热卖</li><li>卧室家具</li><li>灯饰照明</li><li>五金工具</li><li>厨房卫浴</li><li>办公文教</li></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <div class="louc_tup_qieh">
+                    <div class="js-silder ws-slider">
+                        <div class="silder-scroll">
+                            <div class="silder-main">
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/liuceng_1.jpg" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/2.png" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/3.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="js-silder-ctrl">
+                            <span class="silder-ctrl-prev"></span>
+                            <span class="silder-ctrl-next"></span>
+                        </div>
+                    </div>
+                    <div class="kuas_daoh">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="chengc_jvz">
+    <div class="slideTxtBox2">
+        <div class="hd">
+            <h1>
+                <p>手机数码</p>
+                <p class="yingw_">Mobile phone digital</p>
+            </h1>
+            <ul><li>电脑整机</li><li>热门手机</li><li>智能数码</li><li>游戏组装</li><li>硬件存储</li><li>摄影产品</li></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <div class="louc_tup_qieh">
+                    <div class="js-silder ws-slider">
+                        <div class="silder-scroll">
+                            <div class="silder-main">
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/liuceng_1.jpg" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/2.png" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/3.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="js-silder-ctrl">
+                            <span class="silder-ctrl-prev"></span>
+                            <span class="silder-ctrl-next"></span>
+                        </div>
+                    </div>
+                    <div class="kuas_daoh kuas_daoh_2">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_2">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_2">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_2">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_2">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_2">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_2">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_2">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_2">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_2">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_2">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_2">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="chengc_jvz">
+    <div class="slideTxtBox3">
+        <div class="hd">
+            <h1>
+                <p>服饰鞋帽</p>
+                <p class="yingw_">Shoes and hats</p>
+            </h1>
+            <ul><li>精品热卖</li><li>精品热卖 </li><li>女装</li><li>男装</li><li>内衣</li><li>时尚套装</li></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <div class="louc_tup_qieh">
+                    <div class="js-silder ws-slider">
+                        <div class="silder-scroll">
+                            <div class="silder-main">
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/mm_yif.jpg" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/2.png" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/mm_yif.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="js-silder-ctrl">
+                            <span class="silder-ctrl-prev"></span>
+                            <span class="silder-ctrl-next"></span>
+                        </div>
+                    </div>
+                    <div class="kuas_daoh kuas_daoh_3">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_3">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_3">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_3">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_3">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_3">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_3">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_3">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_3">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_3">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_3">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_3">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="chengc_jvz">
+    <div class="slideTxtBox4">
+        <div class="hd">
+            <h1>
+                <p>汽车用品</p>
+                <p class="yingw_">Automobile</p>
+            </h1>
+            <ul><li>精品热卖</li><li>汽车品牌</li><li>维修保养</li><li>汽车装饰</li><li>车载电器</li><li>汽车服务</li></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <div class="louc_tup_qieh">
+                    <div class="js-silder ws-slider">
+                        <div class="silder-scroll">
+                            <div class="silder-main">
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/qiche_tu.jpg" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/mm_yif.jpg" alt=""></a>
+                                </div>
+                                <div class="silder-main-img">
+                                    <a href="#"><img src="/static/images/3.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="js-silder-ctrl">
+                            <span class="silder-ctrl-prev"></span>
+                            <span class="silder-ctrl-next"></span>
+                        </div>
+                    </div>
+                    <div class="kuas_daoh kuas_daoh_4">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_4">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_4">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_4">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_4">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_4">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_4">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_4">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_4">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_4">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <div class="pangb_daoh">
+                    <h1><a href="#"><img src="/static/images/de111.jpg"></a></h1>
+                    <div class="kuas_daoh_houm kuas_daoh_houm_4">
+                        <a href="#">客厅餐厅</a>
+                        <a href="#">床衣柜</a>
+                        <a href="#">书房儿童</a>
+                        <a href="#">五金工具</a>
+                        <a href="#">沙发实木</a>
+                        <a href="#">床垫</a>
+                        <a href="#">电脑桌</a>
+                        <a href="#">接线板</a>
+                        <a href="#">餐桌餐椅</a>
+                        <a href="#">简易衣柜</a>
+                        <a href="#">书桌</a>
+                        <a href="#">开关插座</a>
+                        <a href="#">酒柜餐边</a>
+                        <a href="#">乳胶床垫</a>
+                        <a href="#">办公桌</a>
+                        <a href="#">USB插座</a>
+                    </div>
+                </div>
+                <div class="you_lirb you_lirb_hou you_lirb_4">
+                    <div class="shang_buf">
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_002.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb ">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_001.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                    <div class="xia_buf">
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_003.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_004.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                        <div class="you_shangp_lieb cnm">
+                            <a href="#"><img  class="you_tup_k" src="/static/images/yic_005.jpg"></a>
+                            <a href="#" class="_you_neir_biaot">林氏木业简约现代真皮转角客厅头层牛皮沙发家具2036</a>
+                            <span>¥ 2599 .00</span>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<%--这里将原有js语句放在末尾--%>
+
+
+<!--广告图-->
+<div class="guangg_tu">
+    <a href="#"><img src="/static/images/guang_tu.jpg"></a>
+</div>
+
+
+<!--特色商品/ 热门商品-->
+
+<div class="tes_shnagp_beij">
+    <div class="tes_shangp">
+        <div class="neir_biaot">
+            <p>特色商品</p>
+            <p class="yingw">featured</p>
+            <a href="#">MORE+</a>
+        </div>
+        <div class="tes_shangp_neir_k">
+            <div class="tes_dat">
+                <a href="#">
+                    <h1><img class="tes_dat_dongh" src="/static/images/te_se_shangp_da.jpg"></h1>
+                    <h2>苹果手机iPhone6(32G)全网</h2>
+                    <span>¥ 4999 .00</span>
+                </a>
+            </div>
+            <div class="tes_xiaot_beij">
+                <div class="tes_xiaot_shang">
+                    <div class="tes_xiaot_neir">
+                        <a href="#">
+                            <h1><img class="tes_xiaot_dongh" src="/static/images/tes_shangp_xiao.jpg"></h1>
+                            <h2>海尔(Haier) BCD452WDPF 452</h2>
+                            <span>¥ 506 .00</span>
+                        </a>
+                    </div>
+                    <div class="tes_xiaot_neir tes_xiaot_wubian_kuang">
+                        <a href="#">
+                            <h1><img class="tes_xiaot_dongh" src="/static/images/tes_shangp_xiao2.jpg"></h1>
+                            <h2>海尔(Haier) BCD452WDPF 452</h2>
+                            <span>¥ 506 .00</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="tes_xiaot_shang tes_xiaot_xia">
+                    <div class="tes_xiaot_neir">
+                        <a href="#">
+                            <h1><img class="tes_xiaot_dongh" src="/static/images/tes_shangp_xiao3.jpg"></h1>
+                            <h2>海尔(Haier) BCD452WDPF 452</h2>
+                            <span>¥ 506 .00</span>
+                        </a>
+                    </div>
+                    <div class="tes_xiaot_neir tes_xiaot_wubian_kuang">
+                        <a href="#">
+                            <h1><img class="tes_xiaot_dongh" src="/static/images/tes_shangp_xiao4.jpg"></h1>
+                            <h2>海尔(Haier) BCD452WDPF 452</h2>
+                            <span>¥ 506 .00</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rem_shangp">
+        <div class="neir_biaot">
+            <p>热门商品</p>
+            <p class="yingw">Hot commodity</p>
+            <a href="#">MORE+</a>
+        </div>
+        <div class="rem_shangp_beij_k">
+            <!---->
+            <div class="picScroll_left">
+                <div class="hd">
+                    <ul></ul>
+                </div>
+                <div class="bd">
+                    <ul class="picList">
+                        <li>
+                            <div class="pic"><a href="#" target="_blank"><img src="/static/images/rem_shangp.jpg" /></a></div>
+                            <div class="title"><a href="#" target="_blank">佳能(Canon)EOS80D单反套机</a><span>¥ 506 .00</span></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="#" target="_blank"><img src="/static/images/rem_shangp1.jpg" /></a></div>
+                            <div class="title"><a href="#" target="_blank">佳能(Canon)EOS80D单反套机</a><span>¥ 7940 .00</span></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="#" target="_blank"><img src="/static/images/rem_shangp.jpg" /></a></div>
+                            <div class="title"><a href="#" target="_blank">佳能(Canon)EOS80D单反套机</a><span>¥ 506 .00</span></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="#" target="_blank"><img src="/static/images/rem_shangp1.jpg" /></a></div>
+                            <div class="title"><a href="#" target="_blank">佳能(Canon)EOS80D单反套机</a><span>¥ 7940 .00</span></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="#" target="_blank"><img src="/static/images/rem_shangp1.jpg" /></a></div>
+                            <div class="title"><a href="#" target="_blank">佳能(Canon)EOS80D单反套机</a><span>¥ 506 .00</span></div>
+                        </li>
+                        <li>
+                            <div class="pic"><a href="#" target="_blank"><img src="/static/images/rem_shangp1.jpg" /></a></div>
+                            <div class="title"><a href="#" target="_blank">佳能(Canon)EOS80D单反套机</a><span>¥ 7940 .00</span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!---->
+        </div>
+    </div>
+</div>
+
+
+<%--JS：jQuery(".picScroll_left")置于末尾--%>
+
+<!--底部-->
+<div class="dib_beij">
+    <div class="dib_jvz_beij">
+        <div class="shangp_baoz">
+            <p>本地购物&nbsp;&nbsp;看得见的商品</p>
+            <p class="beng1">正品行货&nbsp;&nbsp;购物无忧</p>
+            <p class="beng2">低价实惠&nbsp;&nbsp;帮你省钱</p>
+            <p class="beng3">本地直发&nbsp;&nbsp;专业配送</p>
+        </div>
+        <div class="zhongj_youx">
+            <div class="lieb_daoh">
+                <h4>物流配送</h4>
+                <ul>
+                    <li><a href="#">配送查询</a></li>
+                    <li><a href="#">配送服务</a></li>
+                    <li><a href="#">配送费用</a></li>
+                    <li><a href="#">配送时效</a></li>
+                    <li><a href="#">签收与验货</a></li>
+                </ul>
+            </div>
+            <div class="lieb_daoh">
+                <h4>支付与账户</h4>
+                <ul>
+                    <li><a href="#">货到付款</a></li>
+                    <li><a href="#">在线支付</a></li>
+                    <li><a href="#">门店支付</a></li>
+                    <li><a href="#">账户安全</a></li>
+                </ul>
+            </div>
+            <div class="lieb_daoh">
+                <h4>购物帮助</h4>
+                <ul>
+                    <li><a href="#">购物保障</a></li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">焦点问题</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="lieb_daoh">
+                <h4>售后服务</h4>
+                <ul>
+                    <li><a href="#">退换货服务</a></li>
+                    <li><a href="#">退款说明</a></li>
+                    <li><a href="#">专业维修</a></li>
+                    <li><a href="#">延保服务</a></li>
+                    <li><a href="#">家电回收</a></li>
+                </ul>
+            </div>
+            <div class="lieb_daoh">
+                <div class="kef_dianh">
+                    <p>客服电话</p><span>400-0250-250</span>
+                </div>
+                <div class="kef_dianh kef_dianh_youx">
+                    <p>意见收集邮箱</p><p>topsale@vip.qq.com</p>
+                </div>
+            </div>
+            <div class="lieb_daoh lieb_daoh_you">
+                <div class="erw_ma_beij">
+                    <div class="erw_m">
+                        <h1><img src="/static/images/mb_wangid.png"></h1>
+                        <span>扫码下载MyShop客户端</span>
+                    </div>
+                    <div class="erw_m">
+                        <h1><img src="/static/images/mb_wangid.png"></h1>
+                        <span>扫码下载MyShop客户端</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="beia_hao">
+            <p>京ICP备：123456789号  </p>
+            <p class="gonga_bei">京公网安备：123456789号</p>
+            <div class="renz_">
+                <span></span>
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">jQuery(".slideTxtBox").slide();</script>
+<script type="text/javascript">jQuery(".slideTxtBox2").slide();</script>
+<script type="text/javascript">jQuery(".slideTxtBox3").slide();</script>
+<script type="text/javascript">jQuery(".slideTxtBox4").slide();</script>
+
+
+<script type="text/javascript">
+    jQuery(".picScroll_left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:2 ,trigger:"click"});
+</script>
+
 </body>
 </html>
