@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.swaggerranger.my.shop.web.api.dao.TbUserDao">
+    <!--这里映射的id要和DAO接口里的方法对应，同时字段里如果名字不相等可以使用as,eg:a.username as userName;来将数据库字段和实体类属性对应，从而让工具能够自动封装-->
+
+    <!--sql片段，用于重构代码，消除代码重复-->
+    <sql id="tbUserColumns">
+        a.id,
+        a.username,
+        a.password,
+        a.phone,
+        a.email,
+        a.created,
+        a.updated
+    </sql>
+
+
+
+    <select id="signIn" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        WHERE username = #{username}
+        OR phone = #{username}
+        OR email = #{username}
+    </select>
+
+</mapper>

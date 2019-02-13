@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JavaType;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.ArrayList;
@@ -176,6 +177,20 @@ public class MapperUtils {
         return list;
     }
 
+    /**
+     * 将指定节点的JSON 数组转换为集合
+     *
+     * @param jsonStr  json字符串
+     * @param treeNode json中的数据节点
+     * @param clazz
+     * @return
+     * @throws Exception
+     */
+    public static <T> List<T> json2listByTree(String jsonStr,String treeNode,Class<T> clazz) throws Exception {
+        JsonNode jsonNode = objectMapper.readTree(jsonStr);
+        JsonNode data = jsonNode.findPath(treeNode);
+        return json2list(data.toString(), clazz);
+    }
 
     /**
      * 获取泛型的 Collection Type

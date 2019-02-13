@@ -80,7 +80,7 @@
         SET
           `id` = #{id},
           `category_id` = #{tbContentCategory.id},
-          `title` = title,
+          `title` = #{title},
           `sub_title` = #{subTitle},
           `title_desc` = #{titleDesc},
           `url` = #{url},

@@ -111,8 +111,8 @@
                                 <thead>
                                 <tr>
                                     <th><input type="checkbox" class="minimal iCheck_master" /></th>
-                                    <th>所属分类</th>
                                     <th>ID</th>
+                                    <th>所属分类</th>
                                     <th>标题</th>
                                     <th>子标题</th>
                                     <th>标题描述</th>
