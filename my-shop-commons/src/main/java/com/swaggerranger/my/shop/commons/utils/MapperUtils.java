@@ -66,6 +66,20 @@ public class MapperUtils {
     }
 
     /**
+     * 将指定treeNode节点拿到数据再转换为 JavaBean
+     *
+     * @param jsonString
+     * @param treeNode
+     * @param clazz
+     * @return
+     * @throws Exception
+     */
+    public static <T> T json2pojoByTree( String jsonString, String treeNode, Class<T> clazz ) throws Exception {
+        JsonNode jsonNode = objectMapper.readTree(jsonString);
+        JsonNode data = jsonNode.findPath(treeNode);
+        return json2pojo(data.toString(), clazz);
+    }
+    /**
      * 字符串转换为 Map<String, Object>
      *
      * @param jsonString

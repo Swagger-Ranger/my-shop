@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -40,20 +41,28 @@
                 </div>
             </div>
             <div class="kengl_kuang">
-                <div class="txt_kuang">
-                    <input type="text" class="itxt"  placeholder="邮箱/用户名/已验证手机">
-                    <input type="text" class="itxt"  placeholder="密码">
-                </div>
-                <div class="remember">
-                    <div class="fl">
-                        <input type="checkbox" >
-                        <label for="autoLoginFlag">自动登录</label>
+
+                <c:if test="${baseResult!=null}">
+                    <div class="red">${baseResult.message}</div>
+
+                </c:if>
+                <form action="/signIn" method="post">
+                    <div class="txt_kuang">
+                        <input id="username" name="username" type="text" class="itxt"  placeholder="邮箱/用户名/已验证手机">
+                        <input id="password" name="password" type="password" class="itxt"  placeholder="密码">
                     </div>
-                    <div class="fr">
-                        <a href="#" class="fl" target="_blank" title="忘记密码">忘记密码?</a>
+                    <div class="remember">
+                        <div class="fl">
+                            <input type="checkbox" >
+                            <label>自动登录</label>
+                        </div>
+                        <div class="fr">
+                            <a href="#" class="fl" target="_blank" title="忘记密码">忘记密码?</a>
+                        </div>
                     </div>
-                </div>
-                <input type="button" tabindex="5" value="登 录" class="btnnuw">
+                    <input type="submit" tabindex="5" value="登 录" class="btnnuw">
+                </form>
+
             </div>
             <div class="corp_login">
                 <div class="mingb_shoq"><a href="#">名榜授权登录！</a></div>

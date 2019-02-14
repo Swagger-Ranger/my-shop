@@ -3,6 +3,8 @@ package com.swaggerranger.my.shop.web.api.web.controller.v1;
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
 import com.swaggerranger.my.shop.domain.TbUser;
 import com.swaggerranger.my.shop.web.api.service.TbUserService;
+import com.swaggerranger.my.shop.web.api.web.dto.TbUserDTO;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -23,13 +25,15 @@ public class TbUserController {
     @Autowired
     private TbUserService tbUserService;
 
-    @RequestMapping(value = "login",method = RequestMethod.GET)
+    @RequestMapping(value = "login",method = RequestMethod.POST)
     public BaseResult signIn( TbUser tbUser ) {
         TbUser user = tbUserService.signIn(tbUser);
         if (user == null) {
             return BaseResult.fail("账号或密码错误");
         } else {
-            return BaseResult.success("登陆成功", user);
+            TbUserDTO dto = new TbUserDTO();
+            BeanUtils.copyProperties(user, dto);
+            return BaseResult.success("登陆成功", dto);
         }
     }
 }
