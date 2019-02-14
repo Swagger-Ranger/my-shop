@@ -1,6 +1,7 @@
 package com.swaggerranger.my.shop.web.ui.controller;
 
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.swaggerranger.my.shop.web.ui.constant.SystemConstants;
 import com.swaggerranger.my.shop.web.ui.api.UsersApi;
 import com.swaggerranger.my.shop.web.ui.dto.TbUser;
 import org.springframework.stereotype.Controller;
@@ -38,12 +39,18 @@ public class LoginController {
         }
         //登陆成功
         else {
-            request.getSession().setAttribute("tbUser", user);
+            request.getSession().setAttribute(SystemConstants.SESSION_USER_KEY, user);
             return "redirect:/index";
         }
     }
 
-    @RequestMapping(value = "singUp",method = RequestMethod.GET)
+    @RequestMapping(value = "signOut", method = RequestMethod.GET)
+    public String signOut( HttpServletRequest request ) {
+        request.getSession().invalidate();
+        return "redirect:/index";
+    }
+
+    @RequestMapping(value = "signUp",method = RequestMethod.GET)
     public String signUp() {
         return "signUp";
     }
