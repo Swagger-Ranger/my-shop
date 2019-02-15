@@ -50,6 +50,8 @@
                     <div class="txt_kuang">
                         <input id="username" name="username" type="text" class="itxt"  placeholder="邮箱/用户名/已验证手机">
                         <input id="password" name="password" type="password" class="itxt"  placeholder="密码">
+                        <input id="verification" name="verification" type="text" class="itxt"  placeholder="验证码" style="width: 140px;height: 30px;">
+                        <img id="validateCode" src="/verification" style="float: right;height: 35px;padding-right: 32px;cursor: pointer" title="看不清？换一张">
                     </div>
                     <div class="remember">
                         <div class="fl">
@@ -80,6 +82,17 @@
     </div>
 </div>
 
+<script src="/static/js/jquery-1.11.3.min.js"></script>
+<script>
+    $(function () {
+        // 刷新验证码
+        $("#validateCode").bind("click", function () {
+            $(this).hide().attr('src', '/verification?random=' + Math.random()).fadeIn();
+        });
+    });
+</script>
 </body>
+
+
 </html>
 
