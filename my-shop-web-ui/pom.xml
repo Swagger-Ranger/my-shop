@@ -54,9 +54,15 @@
         <dependency>
             <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-    </dependency>
-    <!--spring test end-->
+        </dependency>
+        <!--spring test end-->
 
+        <!--google code begin-->
+        <dependency>
+            <groupId>com.google.code.kaptcha</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+        <!--google code end-->
 
     </dependencies>
 
