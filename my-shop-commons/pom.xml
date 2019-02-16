@@ -108,5 +108,12 @@
         </dependency>
         <!-- Apache Http End -->
 
+        <!--email begin-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-email</artifactId>
+        </dependency>
+        <!--email end-->
+
     </dependencies>
 </project>

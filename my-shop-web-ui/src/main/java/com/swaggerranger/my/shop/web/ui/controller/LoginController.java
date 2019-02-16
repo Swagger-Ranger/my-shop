@@ -2,10 +2,12 @@ package com.swaggerranger.my.shop.web.ui.controller;
 
 import com.google.code.kaptcha.Constants;
 import com.swaggerranger.my.shop.commons.dto.BaseResult;
+import com.swaggerranger.my.shop.commons.utils.EmailSendUtils;
 import com.swaggerranger.my.shop.web.ui.constant.SystemConstants;
 import com.swaggerranger.my.shop.web.ui.api.UsersApi;
 import com.swaggerranger.my.shop.web.ui.dto.TbUser;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,12 +26,13 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class LoginController {
 
-/*
+    @Autowired
+    private EmailSendUtils emailSendUtils;
+
     @RequestMapping(value = "signIn",method = RequestMethod.GET)
     public String signIn() {
         return "signIn";
     }
-*/
 
     @RequestMapping(value = "signIn", method = RequestMethod.POST)
     public String signIn( TbUser tbUser, Model model, HttpServletRequest request ) throws Exception {
@@ -50,6 +53,7 @@ public class LoginController {
         }
         //登陆成功
         else {
+            emailSendUtils.sendEmail("用户登陆",String.format("用户【%s】登陆MyShop",user.getUsername()),"liufei32@outlook.com");
             request.getSession().setAttribute(SystemConstants.SESSION_USER_KEY, user);
             return "redirect:/index";
         }
